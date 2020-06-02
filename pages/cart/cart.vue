@@ -1,15 +1,10 @@
 <template>
 	<view class="content">
-		<Com :msg='msg'></Com>
 	</view>
 </template>
 
 <script>
-	import Com from '../../compoents/com.vue'
 	export default {
-		components:{
-			Com
-		},
 		data() {
 			return {
 				title: 'Hello',

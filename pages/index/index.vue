@@ -114,7 +114,6 @@
 			}
 		},
 		onLoad() {
-			this.lxg.sayhi()
 			let that=this
 			uniCloud.callFunction({
 				name:'operateData',
