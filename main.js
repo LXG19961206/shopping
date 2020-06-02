@@ -5,9 +5,7 @@ Vue.config.productionTip = false
 
 App.mpType = 'app'
 
-import lxg from './static/axios/dist/lxg.js'
-Vue.prototype.lxg=lxg
-import axios from './static/axios/dist/axios.min.js'
+
 console.log(axios)
 
 //配置session
