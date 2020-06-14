@@ -1,0 +1,33 @@
+//mixin that enclosured for global  
+//you must make sure the parent-element of container has 'position:relative' props before you use 
+@mixin lxg-center{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+//you must make sure the parent-element of container has 'position:relative' props before you use 
+@mixin lxg-center-x{
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+}
+//you must make sure the parent-element of container has 'position:relative' props before you use 
+@mixin lxg-center-y{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+//lxg-clear is used to fix the program of float , please use it on a Pseudo element
+@mixin lxg-clear {
+	content: '';
+	display: block;
+	clear: both;
+}
+@mixin lxg-mainFont {
+	font-family: youyuan;
+	color: #666;
+	font-size: 30rpx;
+	font-weight: 400;
+	text-indent: 1rpx;
+}

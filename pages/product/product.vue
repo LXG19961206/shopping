@@ -66,7 +66,6 @@
 					</view>
 					
 					<view class="" style='height:100rpx;'></view>
-					<com name='comItem'></com>
 			</view>
 		</view>
 		
@@ -74,7 +73,6 @@
 </template>
 
 <script>
-	import com from '../../compoents/com.vue'
 	console.log(com)
 	export default {
 		templates:{
