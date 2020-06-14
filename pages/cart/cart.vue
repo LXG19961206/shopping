@@ -1,5 +1,15 @@
 <template>
 	<view class="content">
+		<searchInput
+		:border="searchInputMsg.border"
+		:width="searchInputMsg.width"
+		:inputIcon="searchInputMsg.inputIcon"
+		:type="searchInputMsg.type"
+		:placeholder="searchInputMsg.placeholder"
+		api="http://www.baidu.com"
+		>
+		</searchInput>
+		<productCard></productCard>
 	</view>
 </template>
 
@@ -7,8 +17,15 @@
 	export default {
 		data() {
 			return {
-				title: 'Hello',
-				msg:123
+				searchInputMsg: {
+					border: "1px solid #ccc",
+					width: "90",
+					inputIcon: "../../static/icon/ic_appbar_search_black.png",
+					type: "0",
+					placeholder: "请输入您感兴趣的商品..."
+				},
+				title: "Hello",
+				productMsg: []
 			}
 		},
 		methods:{
@@ -18,23 +35,26 @@
 			}
 		},
 		onShow(){
-			
+			const that = this;
 			uniCloud.callFunction({
-				name:'operateData'
+				name:"operateData"
+			}).then(res=>{
+				that.productMsg = res.result.data;
+				console.log(that.productMsg);
 			})
 		},
 		methods: {
 			isLogin(){
 				let _this=this
-				localStorage&&localStorage.getItem('uid')?null:(()=>{
+				localStorage&&localStorage.getItem("uid")?null:(()=>{
 					uni.showToast({
-					        title: '请您先完成登录...',
-							icon:'none',
+					        title: "请您先完成登录...",
+							icon:"none",
 					        duration: 500,
 							success(){
 								setTimeout(()=>{
 									uni.navigateTo({
-										url:'../login/login'
+										url:"../login/login"
 									})
 								},500)
 							}
@@ -45,30 +65,6 @@
 	}
 </script>
 
-<style>
-	.content {
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		justify-content: center;
-	}
-
-	.logo {
-		height: 200rpx;
-		width: 200rpx;
-		margin-top: 200rpx;
-		margin-left: auto;
-		margin-right: auto;
-		margin-bottom: 50rpx;
-	}
-
-	.text-area {
-		display: flex;
-		justify-content: center;
-	}
-
-	.title {
-		font-size: 36rpx;
-		color: #8f8f94;
-	}
+<style lang="scss" scoped>
+	
 </style>

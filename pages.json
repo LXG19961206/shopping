@@ -1,9 +1,9 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "components/searchInput/searchInput",
+			"path": "pages/cart/cart",
 			"style": {
-				"navigationBarTitleText": ""
+				"navigationBarTitleText": "giftOfLXG"
 			}
 		},
 		{
@@ -18,12 +18,7 @@
 				"navigationBarTitleText": "giftOfLXG"
 			}
 		},
-		{
-			"path": "pages/cart/cart",
-			"style": {
-				"navigationBarTitleText": "giftOfLXG"
-			}
-		},
+		
 		{
 			"path": "pages/aboutMe/aboutMe",
 			"style": {

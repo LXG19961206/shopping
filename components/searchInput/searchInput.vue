@@ -6,11 +6,12 @@
 		when it filled with '1' , placeholder will became '请输入您要@的人...' and so on , other feathers is to 
 		do-->
 		<input 
-		    placeholder-class="lxg-ui-searchInput-placeholder"
-			class="lxg-ui-searchInput" 
-			:type="type" 
-			:placeholder="placeholder"
-			:style="{width:width+'%',border:border}"
+		    placeholder-class = "lxg-ui-searchInput-placeholder"
+			class = "lxg-ui-searchInput" 
+			:type = "type" 
+			:placeholder = "placeholder"
+			:style = "{width:width+'%',border:border}"
+			:api = "api"
 			>
 			<image 
 				@click="executeFeatures"
@@ -31,8 +32,7 @@
 				type:String
 			},
 			width:{
-				default:90,
-				type:Number
+				default:90
 			},
 			border:{
 				default:'#ccc solid 1px',
@@ -41,13 +41,19 @@
 			type:{
 				default:'0',
 				type:String
+			},
+			placeholder:{
+				default: '',
+				type:String 
+			},
+			api:{
+				default: '',
+				type:String
 			}
 		},
 		data(){
 			return {
-				timer: null,
-				placeholder: '',
-				//when we executing different features , apis are also different.
+				timer: null
 			}
 		},
 		methods:{
@@ -62,12 +68,6 @@
 		},
 		onLoad(){
 			const Type = this.type;
-			switch(Type){
-				case '0' : this.placeholder = ' 您输入您想要的商品... ';break; 
-				case '1' : this.placeholder = ' 您输入您想要查找的用户... ';break;
-				case '2' : this.placeholder = ' 您输入您想要@的人... ';break;
-				case '3' : this.placeholder = ' 您输入您感兴趣的内容... ';break;
-			}
 		}
 	}
 </script>
