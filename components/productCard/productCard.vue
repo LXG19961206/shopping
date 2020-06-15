@@ -81,25 +81,20 @@
 	}
 	&-nameBox {
 		&-choice {
-			padding: 0rpx 5rpx;
-			border:1rpx solid #d53369;
+			border:1rpx solid #C82333;
 			color: #fff;
 			font-size: 18rpx;
 			height: 10rpx;
-			background: #d53369;
+			background: #C82333;
 			border-radius: 999rpx;
 			font-weight: 800;
 			box-sizing: border-box;
+			padding: 0rpx 10rpx;
 		}
 		&-text {
 			font-size: 24rpx;
-			text-overflow: -o-ellipsis-lastline;
-			overflow: hidden;
-			text-overflow: ellipsis;
-			display: -webkit-box;
-			-webkit-line-clamp: 2;
-			ine-clamp: 2;
-			-webkit-box-orient: vertical;
+			line-height: 1rem;
+			@include lxg-doubleLines;
 		}
 	}
 	&-priceBox{
@@ -111,7 +106,7 @@
 			border: #d53369 1rpx solid;
 			height:20rpx;
 			font-size: 16rpx;
-			color: #D53369;
+			color: #C82333;
 			border-radius: 10rpx;
 			margin: 5rpx;
 			box-sizing: border-box;
@@ -122,7 +117,7 @@
 		}
 		&-right > text:last-child{
 			font-weight: 800;
-			color: #D53369;
+			color: #C82333;
 			margin-left: 15rpx;	
 		}
 		&-right > text:first-child{

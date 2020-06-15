@@ -31,3 +31,13 @@
 	font-weight: 400;
 	text-indent: 1rpx;
 }
+//when you set 'doubleLines' , only two lines of the text will be shown , rest will be replaced by '...'
+@mixin lxg-doubleLines {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	ine-clamp: 2;
+	-webkit-box-orient: vertical;
+}

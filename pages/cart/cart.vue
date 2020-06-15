@@ -11,7 +11,7 @@
 		</searchInput>
 		<view class="productBox">
 			<view class="productItemBox"
-				v-for="(item,i) of productMsg"
+				v-for="(item,i) of (productMsg.slice(0,5))"
 				:key="i">
 				<productCard
 					class="lxg-ui-productCard"
