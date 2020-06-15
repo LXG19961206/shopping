@@ -33,6 +33,14 @@
 			:messageCount = "item.count"
 			:sendTime = "item.sendTime">
 		</messageList>
+		<productDetails
+			:imgsGroup="productMsg[0].img"
+			:imgsGroup2="productMsg[0].img2"
+			:imgsGroup3="productMsg[0].img3"
+			:price="productMsg[0].price"
+			:price2="productMsg[0].price2"
+			:pname="productMsg[0].pname">
+		</productDetails> 
 	</view>
 </template>
 
