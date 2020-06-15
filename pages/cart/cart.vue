@@ -24,6 +24,15 @@
 				></productCard>
 			</view>
 		</view>
+		<messageList
+			v-for="(item,i) of messageList"
+			:key="i"
+			:headerSrc = "item.src"
+			:userName = "item.uname"
+			:messageContent = "item.content"
+			:messageCount = "item.count"
+			:sendTime = "item.sendTime">
+		</messageList>
 	</view>
 </template>
 
@@ -39,7 +48,23 @@
 					placeholder: "请输入您感兴趣的商品..."
 				},
 				title: "Hello",
-				productMsg: []
+				productMsg: [],
+				messageList:[
+					{
+						src:'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1592220737031&di=d4fa74add9ee43f0e8653b4526ead15a&imgtype=0&src=http%3A%2F%2Fhiphotos.baidu.com%2Fdoc%2Fpic%2Fitem%2F8b82b9014a90f60367734e773312b31bb051ed3b.jpg',
+						uname:'淼 可 欢',
+						content:'时间本是无数个彼此孤立、毫无关联的片段;因为回忆的存在,使过去、现在能够连接在一起',
+						count:'20',
+						sendTime:'2020-06-15'
+					},
+					{
+						src:'http://img0.imgtn.bdimg.com/it/u=1803056350,344909414&fm=11&gp=0.jpg',
+						uname:'降温丶',
+						content:'沧海月明珠有泪,蓝田玉暖玉生烟.此情可待成追忆 ? 只是当时已惘然 .',
+						count:'0',
+						sendTime:'明天'
+					}
+				]
 			}
 		},
 		methods:{
