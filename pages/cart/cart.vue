@@ -9,7 +9,21 @@
 		api="http://www.baidu.com"
 		>
 		</searchInput>
-		<productCard></productCard>
+		<view class="productBox">
+			<view class="productItemBox"
+				v-for="(item,i) of productMsg"
+				:key="i">
+				<productCard
+					class="lxg-ui-productCard"
+					:productImg = "item.img"
+					:productPricePast = "item.price2"
+					:productPriceNow = "item.price"
+					:productText = "item.pname"
+					:isOfferSend = "true"
+					:isHot = "false"
+				></productCard>
+			</view>
+		</view>
 	</view>
 </template>
 
@@ -66,5 +80,17 @@
 </script>
 
 <style lang="scss" scoped>
-	
+.content {
+	width: 100%;
+	.productBox{
+		display: flex;
+		flex-flow: wrap;
+		width: 100%;
+		.productItemBox {
+			width: 50%;
+			box-sizing: border-box;
+			padding: 10rpx;
+		}
+	}
+}
 </style>
