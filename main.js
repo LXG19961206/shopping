@@ -4,7 +4,8 @@ import App from './App'
 
 import searchInput from './components/searchInput/searchInput.vue'
 import productCard from './components/productCard/productCard'
-
+import Mint from "./mint-ui.js"
+Vue.use(Mint);
 
 Vue.config.productionTip = false
 

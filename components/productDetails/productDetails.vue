@@ -5,43 +5,34 @@
 			class = "lxg-ui-productDetails-imgsBox"
 			@click = "goSwiper"
 			:stlye = " swiperObject ">
-			<swiper 
-				:indicator-dots="true"  
-				:interval="3000" 
-				:duration="1000">
-				<swiper-item style="max-height:400rpx;">
-					<view class="swiper-item">
-						<image
-							class = "lxg-ui-productDetails-img"
-							:src="imgsGroup"
-							mode="scaleToFill"
-							style="width:100%;height:400rpx;">
-						</image>
-						<text class = "lxg-ui-productDetails-imgNum">1/3</text>
-					</view>
-				</swiper-item>
-				
-				<swiper-item>
-					<view class="swiper-item">
-						<image
-							class = "lxg-ui-productDetails-img"
-							:src="imgsGroup2">
-						</image>
-						<text class = "lxg-ui-productDetails-imgNum">2/3</text>
-					</view>
-				</swiper-item>
-				
-				<swiper-item>
-					<view class="swiper-item">
-						<image
-							class = "lxg-ui-productDetails-img"
-							:src="imgsGroup3">
-						</image>
-						<text class = "lxg-ui-productDetails-imgNum">3/3</text>
-					</view>
-				</swiper-item>
-				
-			</swiper>
+			<mt-swipe
+				speed="600"
+				auto="2000">
+				<mt-swipe-item>
+					<image
+						class = "lxg-ui-productDetails-img"
+						:src="imgsGroup"
+						mode="scaleToFill">
+					</image>
+					
+				</mt-swipe-item>
+				<mt-swipe-item>
+					<image
+						class = "lxg-ui-productDetails-img"
+						:src="imgsGroup2"
+						mode="scaleToFill">
+					</image>
+					
+				</mt-swipe-item>
+				<mt-swipe-item>
+					<image
+						class = "lxg-ui-productDetails-img"
+						:src="imgsGroup3"
+						mode="scaleToFill">
+					</image>
+					
+				</mt-swipe-item>
+			</mt-swipe>
 		</view>
 		<view class="lxg-ui-productDetails-detailsBox">
 			<text class="lxg-ui-productDetails-detailsBox-pastPrice"> ¥{{ price }} </text>
@@ -105,38 +96,32 @@
 
 <style lang="scss" scoped>
 @import "../../app.scss";
-.lxg-ui-productDetails{
-	box-sizing: border-box;
-	width: 100%;
-	&-imgsBox {
-		width:300%;
-		overflow: hidden;
-		transition: all 0.4s;
-		.lxg-ui-productDetails-img {
-			width:33.3%;
-			float: left;
-		}
-	}
-	&-imgsBox:after {
-		@include lxg-clear;
-	}
-}
-.swiper-item{
-	position: relative;
-	image{
-		width: 100%;
-		position: absolute;
-	}
-	.lxg-ui-productDetails-imgNum {
-		position: absolute;
-		right: 68%;
-		top: 230rpx;
-		font-size: 24rpx;
-		color: white;
-		display: inline-block;
-		padding: 10rpx 30rpx;
-		border-radius: 30rpx;
-		background: rgba(0,0,0,0.3);
-	}
-}
+// .lxg-ui-productDetails{
+// 	box-sizing: border-box;
+// 	width: 100%;
+// 	&-imgsBox {
+// 		width:300%;
+// 		overflow: hidden;
+// 		transition: all 0.4s;
+// 		.lxg-ui-productDetails-img {
+// 			width:33.3%;
+// 			float: left;
+// 		}
+// 	}
+// 	&-imgsBox:after {
+// 		@include lxg-clear;
+// 	}
+// }
+
+// .lxg-ui-productDetails-imgNum {
+// 		position: absolute;
+// 		right: 68%;
+// 		top: 230rpx;
+// 		font-size: 24rpx;
+// 		color: white;
+// 		display: inline-block;
+// 		padding: 10rpx 30rpx;
+// 		border-radius: 30rpx;
+// 		background: rgba(0,0,0,0.3);
+// 	}
 </style>
