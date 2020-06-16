@@ -7,31 +7,40 @@
 			:stlye = " swiperObject ">
 			<swiper 
 				:indicator-dots="true"  
-				:duration="600">
-				<swiper-item>
+				:interval="3000" 
+				:duration="1000">
+				<swiper-item style="max-height:400rpx;">
 					<view class="swiper-item">
 						<image
-							class="lxg-ui-productDetails-img"
-							:src="imgsGroup">
+							class = "lxg-ui-productDetails-img"
+							:src="imgsGroup"
+							mode="scaleToFill"
+							style="width:100%;height:400rpx;">
 						</image>
+						<text class = "lxg-ui-productDetails-imgNum">1/3</text>
 					</view>
 				</swiper-item>
+				
 				<swiper-item>
 					<view class="swiper-item">
 						<image
-							class="lxg-ui-productDetails-img"
+							class = "lxg-ui-productDetails-img"
 							:src="imgsGroup2">
 						</image>
+						<text class = "lxg-ui-productDetails-imgNum">2/3</text>
 					</view>
 				</swiper-item>
+				
 				<swiper-item>
 					<view class="swiper-item">
 						<image
-							class="lxg-ui-productDetails-img"
+							class = "lxg-ui-productDetails-img"
 							:src="imgsGroup3">
 						</image>
+						<text class = "lxg-ui-productDetails-imgNum">3/3</text>
 					</view>
 				</swiper-item>
+				
 			</swiper>
 		</view>
 		<view class="lxg-ui-productDetails-detailsBox">
@@ -110,6 +119,24 @@
 	}
 	&-imgsBox:after {
 		@include lxg-clear;
+	}
+}
+.swiper-item{
+	position: relative;
+	image{
+		width: 100%;
+		position: absolute;
+	}
+	.lxg-ui-productDetails-imgNum {
+		position: absolute;
+		right: 68%;
+		top: 230rpx;
+		font-size: 24rpx;
+		color: white;
+		display: inline-block;
+		padding: 10rpx 30rpx;
+		border-radius: 30rpx;
+		background: rgba(0,0,0,0.3);
 	}
 }
 </style>
