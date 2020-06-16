@@ -1,4 +1,6 @@
 <script>
+	import Mint from "./mint-ui.js"
+	console.log(Mint);
 	export default {
 		onLaunch: function() {
 			try{
@@ -18,6 +20,7 @@
 </script>
 
 <style scoped lang="scss">
+@import  "./mint-ui.css";
 @font-face {
      font-family: youyuan;
      src: url('./static/font/font.ttf');
