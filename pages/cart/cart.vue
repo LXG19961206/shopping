@@ -1,5 +1,5 @@
 <template>
-	<view class="content">
+	<view class="content" ref='content'>
 		<searchInput
 		:border="searchInputMsg.border"
 		:width="searchInputMsg.width"
@@ -33,14 +33,15 @@
 			:messageCount = "item.count"
 			:sendTime = "item.sendTime">
 		</messageList>
-		<productDetails
+		<!-- <productDetails
 			:imgsGroup="productMsg[0].img"
 			:imgsGroup2="productMsg[0].img2"
 			:imgsGroup3="productMsg[0].img3"
 			:price="productMsg[0].price"
 			:price2="productMsg[0].price2"
 			:pname="productMsg[0].pname">
-		</productDetails> 
+		</productDetails> -->
+		<loadMore></loadMore>
 	</view>
 </template>
 
@@ -82,6 +83,15 @@
 			}
 		},
 		onShow(){
+			uni.getSystemInfo({
+			      success: function (res) {
+			        console.log(res)
+			      }
+			    })
+			this.$nextTick(function(){
+				console.log(document.querySelector('body').clientHeight)
+				console.log(window.getComputedStyle(document.querySelector('body')).height)
+			})
 			const that = this;
 			uniCloud.callFunction({
 				name:"operateData"
