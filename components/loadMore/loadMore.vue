@@ -9,9 +9,9 @@
 		</text>
 		<image 
 			class="lxg-ui-loadMore-icon" 
-			v-show="isLoading" 
+			v-show="isLoading"  
 			src="../../static/loading.gif" 
-			mode="">
+			mode=""> 
 		</image>
 	</view>
 </template>
