@@ -11,7 +11,7 @@
 		</searchInput>
 		<view class="productBox">
 			<view class="productItemBox"
-				v-for="(item,i) of (productMsg.slice(0,5))"
+				v-for="(item,i) of (productMsg.slice(95))"
 				:key="i">
 				<productCard
 					class="lxg-ui-productCard"
@@ -41,7 +41,10 @@
 			:price2="productMsg[0].price2"
 			:pname="productMsg[0].pname">
 		</productDetails> -->
-		<loadMore></loadMore>
+		<loadMore
+			:getMore="getMore"
+			:canLoadMore="canGetMore">
+		</loadMore>
 	</view>
 </template>
 
@@ -49,6 +52,20 @@
 	export default {
 		data() {
 			return {
+				canGetMore:true,
+				getMore: ()=>{
+					const that = this;
+					uniCloud.callFunction({
+						name:"operateData"
+					}).then(res=>{
+						if(that.productMsg.length>105){
+							that.canGetMore = false
+							return
+						}
+						that.productMsg.push(res.result.data[0]);
+						console.log(that.productMsg);
+					})
+				},
 				searchInputMsg: {
 					border: "1px solid #ccc",
 					width: "90",
@@ -101,6 +118,9 @@
 			})
 		},
 		methods: {
+			fun(){
+				console.log(0)
+			},
 			isLogin(){
 				let _this=this
 				localStorage&&localStorage.getItem("uid")?null:(()=>{
