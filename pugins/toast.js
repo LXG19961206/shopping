@@ -1,6 +1,5 @@
 export default{
   show(msg){
-    console.log(123)
     const content = document.querySelector('.content')
     const width = content.clientWidth * 0.50 + 'px'
     let toast = document.createElement('span')
