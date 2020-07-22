@@ -77,9 +77,7 @@
 						return
 					}
 					if (this.pageTemp > 50) return // 如果距离大于50,那就不触发上拉加载功能
-					const {
-						pageY
-					} = e.targetTouches[0]
+					const { pageY } = e.targetTouches[0]
 					console.log(pageY, this.pageY)
 					// 如果判断是下拉,直接 return ,不执行方法
 					if (pageY > this.pageY) return

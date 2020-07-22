@@ -41,6 +41,7 @@
 			:price2="productMsg[0].price2"
 			:pname="productMsg[0].pname">
 		</productDetails> -->
+    <button @click='showTip'>222</button>
 		<loadMore
 			:getMore="getMore"
 			:canLoadMore="canGetMore">
@@ -93,12 +94,14 @@
 				]
 			}
 		},
-		methods:{
-			 fromson(e){
-				 alert(123)
-				console.log(e)
-			}
-		},
+    mounted() {
+      const that = this
+      that.$toast.show({
+        text:'提示内容',
+        duration:2000,
+        type:'warning'
+      })
+    },
 		onShow(){
 			uni.getSystemInfo({
 			      success: function (res) {
@@ -118,6 +121,14 @@
 			})
 		},
 		methods: {
+      showTip(){
+        this.$toast.show({
+          text:'提示内容',
+          duration:2000,
+          type:'warning'
+        })
+        
+      },
 			fun(){
 				console.log(0)
 			},
