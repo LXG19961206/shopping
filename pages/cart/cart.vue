@@ -101,6 +101,17 @@
         duration:2000,
         type:'warning'
       })
+     this.$toast.confirm({
+       text:"是否进行路由跳转?",
+       success(){
+         uni.reLaunch({
+           url:"../index/index"
+         })
+       },
+       cancel(){
+         console.log('您取消了操作')
+       }
+     })
     },
 		onShow(){
 			uni.getSystemInfo({

@@ -1,4 +1,85 @@
 export default{
+  confirm(params){
+    const content = document.querySelector('.content')
+    const width = content.clientWidth * 0.70 + 'px'
+    let text,success,cancel
+    const styleExtra = `.lxg-ui-toast-button:hover,#lxg-ui-toast-button:hover{
+            background-color: #ddd;
+            border-radius:0 0 .5rem .5rem;
+    }`
+    document.querySelector('style').innerHTML += styleExtra
+    console.log(document.querySelector('style').innerHTML)
+    switch (typeof(params)){
+      case "string":
+        text = params
+        break;
+      case "object":
+        text = params.text
+        success = params.success
+        cancel = params.cancel
+        break;
+      default:
+        break;
+    }
+    let toast = document.createElement('div')
+    const buttonCss = `width:50%;
+                     padding:0.5rem;
+                     font-size:0.7rem;
+                     border-top:1px solid #ddd;
+                     font-weight:400;
+                     float:left;
+                     box-sizing:border-box;
+                     display:inline-block;`
+    toast.innerHTML = `<div 
+                        class="lxg-ui-toast"
+                        style="
+                               width:${width};
+                               background-color:#fff;
+                               border-radius:0.5rem;
+                               position:fixed;
+                               text-align:center;
+                               top:50%;
+                               left:50%;
+                               transform:translate(-50%,-50%);">
+                          <span
+                            style="
+                              margin:auto;
+                              padding:2rem;
+                              font-size:0.7rem;
+                              font-weight:400;
+                              display:inline-block;"
+                          >${text}</span>
+                          <br/>
+                          <span id="lxg-ui-toast-button-cancel"
+                            class='lxg-ui-toast-button'
+                            style="${buttonCss}
+                            border-right:1px solid #ccc;
+                            font-weight:600;
+                            color:#333;
+                            ">取消
+                          </span>
+                          <span id="lxg-ui-toast-button-success"
+                            class='lxg-ui-toast-button'
+                            style="${buttonCss};
+                            font-weight:600;
+                            color:#0084FF;
+                            ">确认 
+                          </span>
+                      </div>`
+    content.appendChild(toast)
+    document.getElementById("lxg-ui-toast-button-success").addEventListener("click",()=>{
+      Array.from(document.querySelectorAll(".lxg-ui-toast")).forEach(item=>{
+        item.style.display = 'none'
+      })
+      success()
+    })
+    document.getElementById("lxg-ui-toast-button-cancel").addEventListener("click",()=>{
+      Array.from(document.querySelectorAll(".lxg-ui-toast")).forEach(item=>{
+        item.style.display = 'none'
+      })
+      cancel()
+    })
+  },
   show(msg){
     const content = document.querySelector('.content')
     const width = content.clientWidth * 0.50 + 'px'
