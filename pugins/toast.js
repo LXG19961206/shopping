@@ -3,9 +3,12 @@ export default{
     const content = document.querySelector('.content')
     const width = content.clientWidth * 0.70 + 'px'
     let text,success,cancel
-    const styleExtra = `.lxg-ui-toast-button:hover,#lxg-ui-toast-button:hover{
+    const styleExtra = `#lxg-ui-toast-button-success:hover{
             background-color: #ddd;
-            border-radius:0 0 .5rem .5rem;
+            border-radius:0 0 .5rem 0;
+    }#lxg-ui-toast-button-cancel:hover{
+            background-color: #ddd;
+            border-radius:0 0 0 .5rem;
     }`
     document.querySelector('style').innerHTML += styleExtra
     console.log(document.querySelector('style').innerHTML)
