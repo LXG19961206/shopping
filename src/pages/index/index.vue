@@ -16,7 +16,13 @@
 		},
 		onLoad() {
 			this.$nextTick(()=>{
-				this.$toast("提示内容")
+				const that = this
+				this.$confirm({
+					text: '提示相关的内容',
+					success(){
+						console.log(that.title)
+					}
+				})
 			})
 			const good : Goods [] = [
 				{

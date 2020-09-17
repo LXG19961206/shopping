@@ -1,13 +1,13 @@
 import Vue from "vue"
 declare module "vue/types/vue" {
-     interface Vue {
-       $toast: any
-     }
+   interface Vue {
+     $toast: (arg:string|object)=>{}
+   }
 }
 
 declare module "vue/types/vue" {
   interface Vue {
-    $confirm: any
+    $confirm: (arg:string|object)=>{}
   }
 }
 
