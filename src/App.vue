@@ -1,5 +1,6 @@
 <script lang="ts">
     import Vue from 'vue';
+    
     export default Vue.extend({
         mpType: 'app',
         onLaunch() {
@@ -15,5 +16,7 @@
 </script>
 
 <style>
-    /*每个页面公共css */
+    uni-page-head[uni-page-head-type=default]~uni-page-wrapper{
+        background-color: #efefef;
+    }
 </style>
