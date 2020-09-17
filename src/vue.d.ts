@@ -11,3 +11,8 @@ declare module "vue/types/vue" {
   }
 }
 
+declare module "vue/types/vue" {
+  interface Vue {
+    $: any
+  }
+}

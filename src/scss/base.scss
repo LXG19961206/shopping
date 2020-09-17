@@ -1,0 +1,51 @@
+@mixin positionCenterY {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@mixin positionCenterX {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@mixin positionCenter{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+
+@mixin clear {
+	content: '';
+	display: block;
+	clear: both;
+}
+
+@mixin mainFont {
+	font-family: youyuan;
+	color: #666;
+	font-size: 30rpx;
+	font-weight: 400;
+	text-indent: 1rpx;
+}
+
+@mixin doubleLines {
+	text-overflow: -o-ellipsis-lastline;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+@mixin reset {
+	a,iframe,p,div,span,li,ul,h1,h2,h3,h4,h5,h6
+	,table,input,textarea,b,strong,i,video,audio{
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+}
