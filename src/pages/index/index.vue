@@ -21,6 +21,9 @@
 					text: '提示相关的内容',
 					success(){
 						console.log(that.title)
+					},
+					cancel(){
+						alert("error")
 					}
 				})
 			})
@@ -38,16 +41,10 @@
 			const fn : (ag1:number,ag2:string)=>string = (age:number,name:string)=>"1"
 			console.log(fn(2,"2"))
 
-			const obj : {
-				name: string,
-				age: number,
-				msg: object
-			} = {
+			const obj : object = {
 				name: "tom",
 				age: 12,
-				msg: {
-
-				}
+				msg: {}
 			}
 
 			const arr : Array<string|object|number> = [1,2,3]
