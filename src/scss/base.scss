@@ -49,3 +49,33 @@
 		box-sizing: border-box;
 	}
 }
+
+@mixin flexContainer {
+	display: flex;
+	justify-content: space-around;
+}
+// 用于制作三角形,需要传递 大小以及颜色 两个属性参数
+@mixin createTriangle($size,$color){
+	width: 0;
+	height: 0;
+	border-top: $size solid transparent;
+	border-right: $size*2 solid $color;
+	border-bottom: $size solid transparent;
+}
+// 和上面一样,但是方向是相反的
+@mixin createTriangleII($size,$color){
+	width: 0;
+	height: 0;
+	border-top: $size solid transparent;
+	border-left: $size*2 solid $color;
+	border-bottom: $size solid transparent;
+}
+
+// 和上面一样,但是方向是相下的
+@mixin createTriangleIII($size,$color){
+	width: 0;
+	height: 0;
+	border-right: $size solid transparent;
+	border-top: $size*2 solid $color;
+	border-left: $size solid transparent;
+}

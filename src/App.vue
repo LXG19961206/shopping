@@ -1,7 +1,5 @@
 <script lang="ts">
     import Vue from 'vue';
-    // import lxgDOM from './pugins/$lxg.js'
-
     
     export default Vue.extend({
         mpType: 'app',
@@ -19,7 +17,7 @@
 
 <style>
 
-    uni-page-head[uni-page-head-type=default]~uni-page-wrapper{
+    uni-page{
         background-color: #efefef;
     }
 

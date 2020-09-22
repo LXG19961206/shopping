@@ -1,38 +1,38 @@
-export default class LxgDOM {
-  constructor(el:string | undefined ) {
+class LxgDOM {
+  constructor(el) {
     // 会根据$中的el , 处理得到相应的选择器
-    el ? this.selector = <HTMLElement> <unknown>document.querySelectorAll(el) : null
+    el ? this.selector = document.querySelectorAll(el) : this.selector = ''
     this.init()
   }
 
-  html(content:string) {
+  html(content) {
     if (!this.selector) {
-      return this.errState(`you must active this method with documentElement(s),you can use this method like "$(.container).html()"`)
+      return this.errState(
+        `you must active this method with documentElement(s),you can use this method like "$(.container).html()"`)
     }
     if (content) {
       console.log(this.selector)
-      this.selector.forEach((item: HTMLElement) => {
-        const el:HTMLElement = <HTMLElement>item
-        el.innerHTML = content
+      this.selector.forEach(item => {
+        item.innerHTML = content
       })
       return this
     } else {
-      const arr:HTMLElement [] = []
-      this.selector.forEach((item: { innerHTML: HTMLElement }) => arr.push(item.innerHTML))
+      const arr = []
+      this.selector.forEach(item => arr.push(item.innerHTML))
       console.log(arr)
       return arr.length == 1 ? arr[0] : arr
     }
   }
 
-  css(key:string, val:string) {
+  css(key, val) {
     if (!this.selector) {
       return this.errState(
         `you must active this method with documentElement(s),you can use this method like "$(.container).css()"`)
     }
     if (!key && !val) {
-      const arr: any[] = []
-      this.selector.forEach((item: Element) => {
-        const obj: any = {
+      const arr = []
+      this.selector.forEach((item) => {
+        const obj = {
           height: '',
           "text-align": '',
           width: '',
@@ -54,11 +54,11 @@ export default class LxgDOM {
       })
       return arr.length == 1 ? arr[0] : arr
     } else if (key && !val) {
-      const arr : Array <object|string> = []
-      this.selector.forEach((item: Element) => arr.push(window.getComputedStyle(item).getPropertyValue(`${key}`)))
+      const arr = []
+      this.selector.forEach(item => arr.push(window.getComputedStyle(item).getPropertyValue(`${key}`)))
       return arr.length == 1 ? arr[0] : arr
     } else if (key && val) {
-      this.selector.forEach((item: { style: { [x: string]: string } }) => item.style[`${key}`] = val)
+      this.selector.forEach(item => item.style[`${key}`] = val)
       return this
     } else {
       throw ("not the right way to use")
@@ -70,17 +70,17 @@ export default class LxgDOM {
     Object.prototype.forRange = this.forRange
   }
 
-  getType(target: any) {
+  getType(target) {
     return typeof target != 'object'
       ? typeof target
       : Object.prototype.toString.call(target)
   }
 
-  clone(data: any) {
+  clone(data) {
     return JSON.parse(JSON.stringify(data))
   }
 
-  dilute(func: { (): Promise<any>; name: any }, duration: number | undefined, isAsync: any) {
+  dilute(func, duration, isAsync) {
     //if using for async func , please apply a Promise func for params "func"
     if (!func || (!duration && duration != 0) || typeof func != 'function') {
       return this.errState('func and duration are both necessary ! ')
@@ -107,7 +107,7 @@ export default class LxgDOM {
     }
   }
 
-  fileName(path: string) {
+  fileName(path) {
     if (!path) this.errState('to active this method , path is necessary !')
     return path.replace(/(.*\/)*([^.]+).*/ig, '$2') + '.' + path.split('.')[1]
   }
@@ -116,7 +116,7 @@ export default class LxgDOM {
     return Number(new Date())
   }
 
-  now(sep: string) {
+  now(sep) {
     !sep ? sep = "-" : null
     const y = new Date().getFullYear()
     const m = new Date().getMonth() + 1 >= 10 ? new Date().getMonth() + 1 : '0' + (new Date().getMonth() + 1)
@@ -124,42 +124,45 @@ export default class LxgDOM {
     return y + sep + m + sep + d
   }
 
-  forRange(fun:any) {
+  forRange(fun) {
     // setting this method on prototype of Object , so we could active this func both on Array and Object
     try {
+      let item, index, key, value
       if (Object.prototype.toString.call(this) == "[object Array]") {
-        for (let i = 0; i < (this as unknown as Array<any>).length; i++) {
-          const item:any = (this as unknown as Array<any>)[i]
-          fun(item, i, this)
+        for (let i = 0; i < this.length; i++) {
+          item = this[i], index = i
+          fun(item, index, this)
         }
       } else if (Object.prototype.toString.call(this) == "[object Object]") {
         const keys = Object.keys(this)
         for (let i = 0; i < keys.length; i++) {
-          const val:any = (this as unknown as Array<any>)[keys.i]
-          fun(keys[i], val, this)
+          fun(keys[i], this[`${keys[i]}`], this)
         }
       }
     } catch (err) {
-      new LxgDOM(undefined).errState(err)
+      (new LxgDOM).errState(err)
     }
   }
+  goBottom(){
+    window.scroll({top:Number(3000),left:0,behavior:'smooth' });
+  }
 
-  deepClone(obj:any) {
+  deepClone(obj) {
     // to finish
     // [Object,Object] assign is not perfect
     if (typeof obj == "object") {
-      const copy:any = {}
-      obj.forRange((key: string | number, val:any) => {
+      const copy = {}
+      obj.forRange((key, val) => {
         if (Object.prototype.toString.call(val) == "[object Array]") {
           copy[key] = []
-          val.forEach((item: any, i: string | number) => {
+          val.forEach((item, i) => {
             copy[key][i] = this.deepClone(obj[key].slice(i, 1))
           })
         } else if (val == null) {
           copy[key] = null
         } else if (Object.prototype.toString.call(val) == "[object Object]") {
           copy[key] = {}
-          val.forRange((k: any, v: any) => copy[`${key}`][`${k}`] = this.deepClone(v))
+          val.forRange((k, v) => copy[`${key}`][`${k}`] = this.deepClone(v))
         }
       })
       return copy
@@ -168,7 +171,7 @@ export default class LxgDOM {
     }
   }
 
-  watch(object: any) {
+  watch(object) {
     const copyObj = this.deepClone(object)
 
     if (typeof object != 'object') {
@@ -177,24 +180,27 @@ export default class LxgDOM {
     }
 
     return new Proxy(this.clone(object), {
-      get(obj, key, val:any) {
+      get(obj, key, val) {
         console.log('getter is activing')
         if (obj.hasOwnProperty(key)) {
-          return obj[key].rule ? obj[key].value : obj[key]
+          return obj[key].rule ? obj[key][value] : obj[key]
         }
         return ''
       },
-      // set(obj:any, key:string|number|symbol, val:any, receiver) {
-      //   copyObj[key].rule(val) ? obj[key].value = val : console.log('您的修改不符合规范')
-      // }
+      set(obj, key, val) {
+        copyObj[key].rule(val) ? obj[key].value = val : console.log('您的修改不符合规范')
+      }
     })
   }
 
 
-  errState(err: string) {
+  errState(err) {
     throw (`not the right way to use this method${err ? ', ' + err : '.'}`)
   }
 
 
-  selector:HTMLElement | undefined
+  selector = ''
 }
+
+const $ = (el) => new LxgDOM(el)
+$.__proto__ = LxgDOM.prototype
