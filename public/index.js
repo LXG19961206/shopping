@@ -171,6 +171,7 @@ class LxgDOM {
     }
   }
 
+ 
   watch(object) {
     const copyObj = this.deepClone(object)
 
@@ -193,6 +194,7 @@ class LxgDOM {
     })
   }
 
+  
 
   errState(err) {
     throw (`not the right way to use this method${err ? ', ' + err : '.'}`)

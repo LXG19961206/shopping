@@ -1,24 +1,24 @@
 @mixin positionCenterY {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 @mixin positionCenterX {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
 }
 
-@mixin positionCenter{
+@mixin positionCenter {
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,-50%);
+	transform: translate(-50%, -50%);
 }
 
 @mixin clear {
-	content: '';
+	content: "";
 	display: block;
 	clear: both;
 }
@@ -30,7 +30,7 @@
 	font-weight: 400;
 	text-indent: 1rpx;
 }
-
+// 显示两行内容,超出部分...隐藏掉
 @mixin doubleLines {
 	text-overflow: -o-ellipsis-lastline;
 	overflow: hidden;
@@ -42,8 +42,7 @@
 }
 
 @mixin reset {
-	a,iframe,p,div,span,li,ul,h1,h2,h3,h4,h5,h6
-	,table,input,textarea,b,strong,i,video,audio{
+	a,iframe,p,div,span,li,ul,h1,h2,h3,h4,h5,h6,table,input,textarea,b,strong,i,video,audio {
 		margin: 0;
 		padding: 0;
 		box-sizing: border-box;
@@ -55,27 +54,88 @@
 	justify-content: space-around;
 }
 // 用于制作三角形,需要传递 大小以及颜色 两个属性参数
-@mixin createTriangle($size,$color){
+@mixin createTriangle($size, $color) {
 	width: 0;
 	height: 0;
 	border-top: $size solid transparent;
-	border-right: $size*2 solid $color;
+	border-right: $size * 2 solid $color;
 	border-bottom: $size solid transparent;
 }
 // 和上面一样,但是方向是相反的
-@mixin createTriangleII($size,$color){
+@mixin createTriangleII($size, $color) {
 	width: 0;
 	height: 0;
 	border-top: $size solid transparent;
-	border-left: $size*2 solid $color;
+	border-left: $size * 2 solid $color;
 	border-bottom: $size solid transparent;
 }
 
 // 和上面一样,但是方向是相下的
-@mixin createTriangleIII($size,$color){
+@mixin createTriangleIII($size, $color) {
 	width: 0;
 	height: 0;
 	border-right: $size solid transparent;
-	border-top: $size*2 solid $color;
+	border-top: $size * 2 solid $color;
 	border-left: $size solid transparent;
+}
+
+// 快捷生成背景图的 mixin
+@mixin backgroundImg($url, $size) {
+	background-image: url($url);
+	background-repeat: no-repeat;
+	background-size: $size;
+}
+
+@mixin randColor() {
+	color: rgba(random() * 255, random() * 255, random() * 255, random());
+}
+
+@mixin randBGColor() {
+	background-color: rgba(random() * 255, random() * 255, random() * 255, random());
+}
+
+@mixin createCube($size, $opacity) {
+	.cube {
+		transform-style: preserve-3d;
+		transform: rotate3d(1, 1, 0, 30deg);
+		& > div {
+			width: $size;
+			height: $size;
+			opacity: $opacity;
+		}
+
+		& > div:first-child {
+			background: red;
+		}
+
+		& > div:nth-child(2) {
+			background: blue;
+			transform-origin: top;
+			transform: rotateX(90deg);
+		}
+
+		& > div:nth-child(3) {
+			background: yellow;
+			transform-origin: top;
+			transform: translateY(-2 * $size) rotateX(90deg);
+		}
+
+		& > div:nth-child(4) {
+			background: orange;
+			transform-origin: left;
+			transform: translate3D(0, -3 * $size, $size);
+		}
+
+		& > div:nth-child(5) {
+			background: lightcoral;
+			transform-origin: left;
+			transform: translate3D(0, -4 * $size, $size) rotateY(90deg);
+		}
+
+		.container > div:last-child {
+			background: lightseagreen;
+			transform-origin: left;
+			transform: translate3D($size, -5 * $size, $size) rotateY(90deg);
+		}
+	}
 }

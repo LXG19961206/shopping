@@ -4,6 +4,7 @@
       src = "../../static/emoji.png" 
       mode = "" 
       class = 'addEmoji'
+      @click = 'toggleEmoji'
     />
     <image 
       src = "../../static/icon/icon_personal_dpj.png" 
@@ -11,6 +12,7 @@
       class = 'addMsg'
       @click = 'addMsg'
     />
+    
     <textarea 
       auto-height = "true"
       maxlength = "1000"
@@ -18,6 +20,7 @@
       placeholder = "请输入..."
       class = "chatArea">
     </textarea>
+
     <button class = 'sendBtn' @click = 'send'>发送</button>
 
     <view 
@@ -54,18 +57,38 @@ export default Vue.extend({
     
   },
   methods:{
+    keyEvt<T>(evt:T){
+      console.log(evt)
+      setTimeout(()=>{
+        sessionStorage.setItem('enterEvt','')
+        sessionStorage.setItem('ctrlEvt','')
+      },100)
+    },
+    toggleEmoji(){
+      uni.$emit('toggleEmoji')
+    },
     send(){
+      if(!this.content) return false || Vue.prototype.$toast({
+        text: '信息不能为空',
+        duration: 500,
+        type: 'warning'
+      })
+
       uni.$emit('addMsg',{
         text: this.content,
         type: 1
       })
+      
       this.content = ''
+      uni.$emit('toggleEmoji',false)
     },
     sendDefaultMsg(obj:object){
        this.listShow = false
        uni.$emit('addMsg',obj)
+       uni.$emit('toggleEmoji',false)
     },
     addMsg(){
+      uni.$emit('toggleEmoji',false)
       this.listShow = true
       this.content = ''
       return true
@@ -120,6 +143,7 @@ export default Vue.extend({
     max-height: 400rpx;
     overflow: auto;
   }
+
   .sendBtn {
     background: #85c5eb;
     color: #fff;

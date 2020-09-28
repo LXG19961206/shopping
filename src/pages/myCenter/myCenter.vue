@@ -1,16 +1,18 @@
 <template>
   <view class="content" ref="content">
     <chatMsg
-      @addMsg="addMsg"
-      v-for="(item, i) in chatList"
-      :key="i"
-      :avatar="item.avatar"
-      :uname="item.uname"
-      :text="item.text"
-      :type="item.type">
+      @addMsg = "addMsg"
+      v-for = "(item, i) in chatList"
+      :key = "i"
+      :avatar = "item.avatar"
+      :uname = "item.uname"
+      :text = "item.text"
+      :type = "item.type"
+    >
     </chatMsg>
 
-    <emojis></emojis>
+    <emojis class = "emojis" v-show = "showEmojis"> </emojis>
+
     <view
       style="
         opacity: 0;
@@ -20,7 +22,7 @@
       "
     >
     </view>
-    <chatArea ref='chatArea'></chatArea>
+    <chatArea ref="chatArea"></chatArea>
   </view>
 </template>
 
@@ -32,7 +34,8 @@ const $ = (Object as any)["$"];
 export default Vue.extend({
   data() {
     return {
-      emojis:[''],
+      showEmojis: false,
+      emojis: [""],
       swiperImgList: [
         "../../static/swiper/0 (1).jpg",
         "../../static/swiper/0 (2).jpg",
@@ -68,9 +71,6 @@ export default Vue.extend({
   watch: {
     chatList(res: Array<object>) {
       console.log("123");
-      // const height:number = this.$refs.content.$el.clientHeight
-      // const sons:Array <HTMLElement> = this.$refs.content.$el.childNodes
-      // const currentSonHeight:number|string = sons[sons.length - 3].style.height
       $.goBottom();
     },
   },
@@ -83,10 +83,18 @@ export default Vue.extend({
     uni.$on("addMsg", (res: object) => {
       (this.chatList as Array<object>).push(res);
     });
-    uni.$on('getEmoji',(res:string)=>{
-      console.log(res)
-      this.$refs.chatArea.content += res
-    })
+    uni.$on("getEmoji", (res: string) => {
+      console.log(res);
+      this.$refs.chatArea.content += res;
+    });
+    uni.$on("toggleEmoji", (bool: boolean) => {
+      if (bool !== undefined) {
+        this.showEmojis = bool;
+        return;
+      } else {
+        this.showEmojis = !this.showEmojis;
+      }
+    });
   },
   methods: {
     addMsg(res: number | string) {
@@ -114,7 +122,15 @@ export default Vue.extend({
 </script>
 
 <style lang="scss" scoped>
+@import "../../scss/base.scss";
+
 .content {
   background-color: #efefef;
+  @include createCube(100px, 0.5);
+}
+.emojis {
+  z-index: 100;
+  position: fixed;
+  bottom: 100rpx;
 }
 </style>

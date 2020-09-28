@@ -1,10 +1,10 @@
 const toast = {
-  confirm(params:any){
-    const content:HTMLElement = <HTMLInputElement> document.querySelector('.content')
+  confirm(params: any) {
+    const content: HTMLElement = <HTMLInputElement>document.querySelector('.content')
     const width = content.clientWidth * 0.70 + 'px'
-    let text:string|number,success:()=>{},cancel:()=>{}
-    const styleExtra = 
-    `
+    let text: string | number, success: () => {}, cancel: () => {}
+    const styleExtra =
+      `
       .lxg-ui-toast {
         border: 1px solid #eee;
         color: #333;
@@ -18,10 +18,10 @@ const toast = {
           border-radius:0 0 0 .5rem;
       }
     `
-    const styleElem:HTMLElement = <HTMLElement>document.querySelector('style')
+    const styleElem: HTMLElement = <HTMLElement>document.querySelector('style')
     styleElem.innerHTML += styleExtra
 
-    switch (typeof(params)){
+    switch (typeof (params)) {
       case "string":
         text = params
         break;
@@ -80,36 +80,36 @@ const toast = {
                           </span>
                       </div>`
     content.appendChild(toast)
-    const el:HTMLElement = <HTMLElement>document.getElementById("lxg-ui-toast-button-success")
-    el.addEventListener("click",()=>{
-      Array.from(document.querySelectorAll(".lxg-ui-toast")).forEach(item=>{
-        const el:HTMLElement = <HTMLElement> item 
+    const el: HTMLElement = <HTMLElement>document.getElementById("lxg-ui-toast-button-success")
+    el.addEventListener("click", () => {
+      Array.from(document.querySelectorAll(".lxg-ui-toast")).forEach(item => {
+        const el: HTMLElement = <HTMLElement>item
         el.style.display = 'none'
       })
       success()
     })
-    const btns:HTMLElement = <HTMLElement>document.getElementById("lxg-ui-toast-button-cancel")
-    btns.addEventListener("click",()=>{
-      Array.from(document.querySelectorAll(".lxg-ui-toast")).forEach(item=>{
-        const el:HTMLElement = <HTMLElement> item 
+    const btns: HTMLElement = <HTMLElement>document.getElementById("lxg-ui-toast-button-cancel")
+    btns.addEventListener("click", () => {
+      Array.from(document.querySelectorAll(".lxg-ui-toast")).forEach(item => {
+        const el: HTMLElement = <HTMLElement>item
         el.style.display = 'none'
       })
       cancel()
     })
   },
-  show(msg:any){
-    const content:HTMLElement = <HTMLElement>document.querySelector('.content')
+  show(msg: any) {
+    const content: HTMLElement = <HTMLElement>document.querySelector('.content')
     const width = content.clientWidth * 0.50 + 'px'
     let toast = document.createElement('span')
-    if(document.querySelectorAll('.lxg-ui-toast')){
-      Array.from(document.querySelectorAll('.lxg-ui-toast')).forEach(item=>{
-        const el:HTMLElement = <HTMLElement> item 
+    if (document.querySelectorAll('.lxg-ui-toast')) {
+      Array.from(document.querySelectorAll('.lxg-ui-toast')).forEach(item => {
+        const el: HTMLElement = <HTMLElement>item
         el.style.display = 'none'
       })
     }
-    if(typeof(msg)=="object"){
-      let {text,duration,type} = msg
-      switch (type){
+    if (typeof (msg) == "object") {
+      let { text, duration, type } = msg
+      switch (type) {
         case "success":
           type = '../../static/success.png'
           break;
@@ -153,10 +153,10 @@ const toast = {
                           </span>
                         </div>`
       content.appendChild(toast)
-      setTimeout(()=>{
+      setTimeout(() => {
         content.removeChild(toast)
-      },duration?duration:2000)
-    }else{
+      }, duration ? duration : 2000)
+    } else {
       const text = msg
       toast.innerHTML = `<span
                         class="lxg-ui-toast"
@@ -174,9 +174,9 @@ const toast = {
                         border-radius:0.1rem;
                         ">${text}</span>`
       content.appendChild(toast)
-      setTimeout(()=>{
+      setTimeout(() => {
         content.removeChild(toast)
-      },2000)
+      }, 2000)
     }
   }
 }

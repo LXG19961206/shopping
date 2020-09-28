@@ -70,8 +70,8 @@ export default Vue.extend({
   &-avatar {
     position: absolute;
     margin: 20rpx;
-    width: 120rpx;
-    height: 120rpx;
+    width: 100rpx;
+    height: 100rpx;
     border-radius: 50%;
     border: 1px solid #999;
   }
@@ -79,21 +79,21 @@ export default Vue.extend({
     position: absolute;
     right: 0rpx;
     margin: 20rpx;
-    width: 120rpx;
-    height: 120rpx;
+    width: 100rpx;
+    height: 100rpx;
     border-radius: 50%;
     border: 1px solid #999;
   }
   &-uname {
     position: absolute;
-    left: 170rpx;
+    left: 150rpx;
     top: 20rpx;
     font-size: 0.7rem;
     color: #999;
   }
    &-uname_self {
     position: absolute;
-    right: 170rpx;
+    right: 150rpx;
     top: 20rpx;
     font-size: 0.7rem;
     color: #999;
@@ -107,7 +107,7 @@ export default Vue.extend({
     line-height: 1.25rem;
     position: absolute;
     top: 60rpx;
-    left: 170rpx;
+    left: 150rpx;
     letter-spacing: 4rpx;
     color: #333;
     font-weight: 600;
@@ -129,7 +129,7 @@ export default Vue.extend({
     line-height: 1.25rem;
     position: absolute;
     top: 30rpx;
-    right: 170rpx;
+    right: 150rpx;
     letter-spacing: 4rpx;
     color: #efefef;
     font-weight: 1000;

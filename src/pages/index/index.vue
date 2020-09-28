@@ -9,6 +9,7 @@
     </searchInput>
     <!-- 轮播图组件 -->
     <swiperImgs :imgList="swiperImgList"></swiperImgs>
+    <loadMore></loadMore>
     <tabBar v-if="hackReset"></tabBar>
   </view>
 </template>
@@ -18,10 +19,11 @@ import Vue from "vue";
 import Goods from "../../interface/goods";
 import { component } from "vue/types/umd";
 
-const $ = (Object as any)['$']
+const $ = (Object as any)["$"];
 export default Vue.extend({
   data() {
     return {
+      number: 3000,
       swiperImgList: [
         "../../static/swiper/0 (1).jpg",
         "../../static/swiper/0 (2).jpg",
@@ -32,9 +34,9 @@ export default Vue.extend({
     };
   },
   onShow() {
-    const obj = $.clone({name:"tom"})
-    console.log(obj)
-    this.tabReset()
+    const obj = $.clone({ name: "tom" });
+    console.log(obj);
+    this.tabReset();
   },
   methods: {
     tabReset() {
