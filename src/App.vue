@@ -4,7 +4,7 @@
     export default Vue.extend({
         mpType: 'app',
         onLaunch() {
-
+            Vue.prototype.$store.commit('getProduct');
         },
         onShow() {
             console.log('App Show')

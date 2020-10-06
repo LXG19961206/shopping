@@ -19,7 +19,7 @@ export default Vue.extend({
   props:{
     extraCss:{
       type: String,
-      default: ''
+      default: '',
     }
   },
   data(){

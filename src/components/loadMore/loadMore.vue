@@ -31,6 +31,9 @@ export default Vue.extend({
     }
   },
   created(){
+    this.$nextTick(()=>{
+      console.log(this.$parent.$el.clientHeight)
+    })
   }
 });
 </script>

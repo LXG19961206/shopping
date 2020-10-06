@@ -1,0 +1,2027 @@
+[
+  {
+    "_id": {
+      "$oid": "5eba9f2071aa80004d79cf35"
+    },
+    "class": "cloth",
+    "pid": "1",
+    "pname": "夏季女士薄款宽松连帽外套女式休闲防晒衣女春秋女装上衣防晒衫夏",
+    "price1": "99",
+    "price2": "259",
+    "img1": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/25/171/73767113-150e-4639-9f60-36e627216f29.jpg",
+    "class2": "1",
+    "price": "299",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/25/169/7ca216ac-b72c-4c07-8129-d5746ab7210e.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/25/53/2ec6a4c8-e272-48d0-8133-7be0f7f8458e.jpg",
+    "second-class": "1",
+    "type": [
+      "白色",
+      "灰色",
+      "绿色"
+    ],
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/25/171/73767113-150e-4639-9f60-36e627216f29.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "5ec296f20fc902004d3d62e2"
+    },
+    "class": "cloth",
+    "class2": "1",
+    "pid": "2",
+    "pname": "UR青春女装时尚纯色翻领大衣YU44R1GN2000",
+    "price": "167",
+    "price1": "699",
+    "second-class": "1",
+    "type": [
+      "S",
+      "M",
+      "L"
+    ],
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvop/00114240/10021309/1151746177-2544329137953120289-2544329137953124432-1.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvop/00114240/10021309/1151746177-2544329137953120289-2544329137953124432-1.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvop/00114240/10021309/1273880144-2544329137953120289-2544329137953124432-3.jpg"
+  },
+  {
+    "_id": {
+      "$oid": "5ec29889921c12004d371ddb"
+    },
+    "class": "cloth",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/10/18/185/e8213f10-87b3-48db-87bc-d300acc8d82d.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/10/18/198/41743642-756f-490e-8425-ef0e8250c0e0.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/10/18/20/f4a62b6b-b275-4800-a184-f3fb39e53abd.jpg",
+    "pid": "3",
+    "pname": "立领冬季保暖男士大衣100%羊毛呢子外套男",
+    "price": "199",
+    "price1": "1280",
+    "second-class": "1",
+    "type": [
+      "蓝色",
+      "湖蓝"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29932d9c9e8004dedda41"
+    },
+    "class": "cloth",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/100288/2019/0910/137/b81d4614-a607-4bd6-bc37-8df16c5003a6.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/100288/2019/0912/172/60988538-a861-42bc-85a4-0c860f6f1f86.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/100288/2019/0912/21/9ae98694-e8b8-47f4-836f-93ef77d6d0bc.jpg",
+    "pid": "4",
+    "pname": "【妻子的浪漫旅行明星推荐款】德玛纳春水洗色牛仔外套女",
+    "price": "100",
+    "price1": "799",
+    "second-class": "1",
+    "type": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec299f1f8811b004d4a0c11"
+    },
+    "class": "cloth",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/100288/2019/0121/66/02ce1e20-7aef-4bea-89ba-d3a93dbad551.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/03/19/156/353da6e0-1b31-4318-b5ac-1b309d43ee9a.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/03/19/175/c719b952-9530-45df-b0b7-4ef84959ea11.jpg",
+    "pid": "5",
+    "pname": "夏季新款韩版原宿风宽松牛仔外套女休闲百搭时尚宽松牛仔外套女",
+    "price": "151",
+    "price1": "699",
+    "second-class": "1",
+    "type": [
+      "S",
+      "M",
+      "L"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29a9b90cade004da4ba9e"
+    },
+    "class": "cloth",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/24/82/408a2549-b00d-4538-a4fb-680dfdd48725.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/24/66/b9101b2f-1773-4507-9429-8ea63313612b.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/24/0/f5b86937-5ad2-492e-be24-888b8efd3cc6.jpg",
+    "pid": "6",
+    "pname": "2020夏季新款短袖男子时尚运动透气健身跑步训练圆领T恤衫",
+    "price": "151",
+    "price1": "249",
+    "second-class": "2",
+    "type": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29b3809e2e5004d2dbc0c"
+    },
+    "class": "cloth",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/613928/2020/0513/94/6c808b46-2bc1-4fae-aac1-887ef8c8289d.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/613928/2019/0624/3/8c2f4e48-aa49-4372-bb01-c014c60e19b2.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/613928/2019/0624/136/d95f12a1-1e37-4612-bb90-393e1d96e651.jpg",
+    "pid": "7",
+    "pname": "夏季百搭圆领透气短袖大logo休闲舒适T恤",
+    "price": "129",
+    "price1": "199",
+    "type": [
+      "M",
+      "L"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29becd9c9e8004dedda4c"
+    },
+    "class": "cloth",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/606111/2020/0312/179/ddca53d4-3497-4982-8057-9ed014bbb0c7.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/606111/2020/0312/61/bd06d088-d688-41e7-8688-31530cdd7991.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/606111/2020/0312/178/c473e8f1-1593-450a-8e9f-7247d1e5235b.jpg",
+    "pid": "8",
+    "pname": "休闲男装夏季薄款撞色印花T恤透气舒适运动短袖男式Polo衫",
+    "price": "69",
+    "price1": "399",
+    "type": [
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29c6643f165004c6d92f3"
+    },
+    "class": "cloth",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/05/18/64/43fdb399-23ae-48e1-b84d-845830284376.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/05/18/25/fa990ec0-7f18-4ad5-b624-2752728e4296.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/05/18/119/c17fc39a-0ff5-4530-9a91-4e6059348bec.jpg",
+    "pid": "9",
+    "pname": "【2020春夏新款】宽松设计感印花图案字母打底短袖T恤女",
+    "price": "65",
+    "price1": "259",
+    "type": [
+      "白色",
+      "天蓝色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29d00ed31fb004d24c342"
+    },
+    "class": "cloth",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvop/00107361/10014937/660129009-801154634538467328-801154634538467336-1.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvop/00107361/10014937/402162704-801154634538467328-801154634538467336-2.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvop/00107361/10014937/1762603174-801154634538467328-801154634538467336-3.jpg",
+    "pid": "10",
+    "pname": "【2020夏装新款】多色简约短袖T恤女宽松百搭舒适打底上衣",
+    "price": "55",
+    "price1": "199",
+    "type": [
+      "X",
+      "M",
+      "L",
+      "XL",
+      "XXL"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29da6a12c6f004e6a2b13"
+    },
+    "class": "cloth",
+    "class2": "3",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcvis/2019/09/06/47/b6d6ed12-5358-4d8a-a5e3-80d321d6a91a.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcvis/2019/09/06/50/f86a2412-3b87-414e-8df9-d4e91309b03f.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcvis/2019/09/06/163/6d8ab0c7-de80-4764-a9cf-d076e2372255.jpg",
+    "pid": "11",
+    "pname": "李宇春同款MEXICO66烫金皮面低帮休闲鞋",
+    "price": "585",
+    "price1": "870",
+    "type": [
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42",
+      "43",
+      "44"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29e4090cade004da4baaf"
+    },
+    "class": "cloth",
+    "class2": "3",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/2020/04/18/139/0cc88228-1150-46e3-afa6-78788262bf5d.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/2020/04/18/5/19f40296-33b9-4676-9b34-6477bba36e80.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/2020/04/18/115/b8f077f1-6979-4ba7-9cbe-48665293a738.jpg",
+    "pid": "12",
+    "pname": "2020新款网面透气潮鞋春夏女鞋跑步椰子鞋运动板鞋女士休闲鞋",
+    "price": "69",
+    "price1": "329",
+    "type": [
+      "36",
+      "37",
+      "38",
+      "39",
+      "40",
+      "41",
+      "42"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29eef3c6376004c5ed2c9"
+    },
+    "class": "cloth",
+    "class2": "3",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcvis/2020/04/14/186/b38470bc-5dce-4d9d-88bb-4ed54e5ab82e.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcvis/2020/04/14/67/56c27238-3b46-4558-9896-11da4d89f748.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcvis/2020/04/14/96/37c87455-a35a-4cac-9f8c-676c728a3650.jpg",
+    "pid": "13",
+    "pname": "夏季新款小白鞋男士休闲鞋时尚透气板鞋男潮流百搭男鞋舒适潮鞋男",
+    "price": "89",
+    "price1": "528",
+    "type": [
+      "白色",
+      "蓝灰"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29f5733bd17004e03ac09"
+    },
+    "class": "cloth",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/609026/2019/0916/48/964714ed-322a-485a-adf5-94a14cc746e0.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/609026/2019/0916/32/4961ee7f-9bdf-4822-8d73-863d0b206b17.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/609026/2019/0916/133/a623e052-5a22-4ac2-85af-7900945d6113.jpg",
+    "pid": "14",
+    "pname": "【真皮】女士马丁靴英伦风女鞋2019新款冬季靴子女靴短靴秋冬女鞋",
+    "price": "189",
+    "price1": "428",
+    "type": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec29fe87b07f6004d6edb56"
+    },
+    "class": "cloth",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/11/15/133/b58bc73f-d609-4c25-bc48-93a6f158f01a.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/11/15/82/0da524d9-4f58-414d-8044-598fe0cccdb4.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/11/15/148/141ad687-9fa9-4387-8976-e798df47dd72.jpg",
+    "pid": "15",
+    "pname": "玛菲玛图2020春秋新品大码女靴百搭拉链马丁靴英伦风真皮短靴",
+    "price": "265",
+    "price1": "1299",
+    "type": [
+      "35",
+      "36",
+      "37",
+      "38",
+      "39",
+      "40"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec2a09a3f11fe004d5ac307"
+    },
+    "class": "cloth",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/11/162/33a1e62f-75b8-44ff-9a9d-99715d2169ea.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/11/187/02738c8f-efde-4c40-af52-1b82d8de18f8.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/11/157/e73fd762-0ac3-4b06-a40c-768c4eda1ccd.jpg",
+    "pid": "16",
+    "pname": "【百搭修身】男士牛仔裤夏季薄款潮流时尚破洞小脚裤",
+    "price": "86",
+    "price1": "299",
+    "type": [
+      "26",
+      "27",
+      "28",
+      "29",
+      "30",
+      "31"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec2a0dca12c6f004e6a2b22"
+    },
+    "class": "cloth",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/11/162/33a1e62f-75b8-44ff-9a9d-99715d2169ea.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/11/187/02738c8f-efde-4c40-af52-1b82d8de18f8.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/11/157/e73fd762-0ac3-4b06-a40c-768c4eda1ccd.jpg",
+    "pid": "17",
+    "pname": "【条纹裤脚边】夏季新款七分裤系绳直筒透气宽松马裤牛仔短裤男",
+    "price": "109",
+    "price1": "699",
+    "type": [
+      "黑色",
+      "浅蓝"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec2a143bae6ba004d1dc63b"
+    },
+    "class": "cloth",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/600260/2020/0430/153/c394432d-63eb-494d-91e8-6d6a81a5ed42.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/600260/2020/0430/45/31b88a52-9e74-4266-8376-981082f35798.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/600260/2020/0430/177/dd6f0a2f-efcf-4109-9e5d-a42b26cf8d02.jpg",
+    "pid": "18",
+    "pname": "女款牛仔裤薄款宽松女式休闲裤纯色牛仔裤长裤女裤子女的",
+    "price": "89",
+    "price1": "559",
+    "type": [
+      "黑色",
+      "浅蓝"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec2a1d46bba66004c6bbd77"
+    },
+    "class": "cloth",
+    "class2": "4",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/612262/2020/0512/153/18787afd-18be-43d6-ab1c-69e12722b9cf.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/612262/2020/0511/158/bb8c7b2c-385e-493c-9d92-ab6cd7c52b56.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/612262/2020/0511/5/d8ace9ac-12fe-4ecf-8459-6f1f00ef7da8.jpg",
+    "pid": "19",
+    "pname": "【女童天丝牛仔裤】20夏新款蝴蝶结装饰阔腿宽松防蚊女童休闲裤",
+    "price": "59",
+    "price1": "309",
+    "type": [
+      "110",
+      "120",
+      "130",
+      "140",
+      "150"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec2a2633e8e0b004d9df3c9"
+    },
+    "class": "cloth",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/606111/2020/0330/174/27380733-9a00-4c7d-b22c-ef174bca6cd9.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/606111/2020/0330/130/4b6780e8-8079-4ff8-bb43-b584474f3261.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/606111/2020/0330/98/42644235-cb49-405f-aaca-97a8ea5185c7.jpg",
+    "pid": "20",
+    "pname": "春夏新款牛仔裤男宽松大码胖子老爹哈伦裤猫须潮牌小脚牛仔裤男",
+    "price": "199",
+    "price1": "799",
+    "type": [
+      "28",
+      "29",
+      "30",
+      "31",
+      "32",
+      "33",
+      "34",
+      "35"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec33cfcd9c9e8004deddb30"
+    },
+    "class": "food",
+    "class2": "1",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcvis/608271/2020/0414/36/d0e3af93-110f-43e3-87d9-1f33ac0a0b27.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcvis/608271/2020/0402/124/e162c826-ac37-4903-a717-51dee7fb2e3e.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcvis/608271/2018/1008/19/3bd77dd6-be9a-46eb-bff9-494c7d34cd51.jpg",
+    "pid": "21",
+    "pname": "【口碑爆款2斤装】零食大礼包60袋1001g休闲零食豆干辣条小吃食品",
+    "price": "29",
+    "price1": "59",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec33d5fa12c6f004e6a2c11"
+    },
+    "class": "food",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000454/2019/0430/76/81edfdae-03cf-40eb-95bd-a13151e8e285.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000454/2019/0410/189/e86646b8-0d5c-4d64-a92e-3a0b51f98f72.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000454/2019/0410/104/b4ee2b3a-9ca8-41f8-b0c9-68c2b41efc1b.jpg",
+    "pid": "22",
+    "pname": "5罐装黄桃罐头425gX5罐 新鲜水果罐头黄桃糖水休闲零食品",
+    "price": "23",
+    "price1": "35",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec33de26bba66004c6bbe8a"
+    },
+    "class": "food",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100002418/2020/0512/56/88faa7f8-5267-437a-bf89-e1aad5205c5f.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100002418/2020/0409/21/a48bd068-bc81-4052-bfc9-758f8272f76e.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100002418/2020/0511/93/01c2e713-6a4f-452a-88c0-89f2e3ae2704.jpg",
+    "pid": "23",
+    "pname": "享2箱 裸价直降 三只松鼠手撕面包组合零食休闲糕点点心早餐食品",
+    "price": "38",
+    "price1": "62",
+    "type": [
+      "套餐1",
+      "套餐2",
+      "套餐3"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec33e31d409e9004cdae954"
+    },
+    "class": "food",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100002877/2019/1105/72/a5bff78c-1345-4793-ae18-fa024b32e6c6.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100002877/2019/1102/122/e17e5b7b-0ec4-4176-8c12-b2b5e75af36c.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100002877/2019/0904/168/b33b3d07-8012-4fab-b1df-196690471d4e.jpg",
+    "pid": "24",
+    "pname": "无蔗糖卡通牛头奶棒糖创意可爱儿童牛奶片棒棒糖宝宝糖果零食",
+    "price": "9.6",
+    "price1": "19",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec33ef5f97e82004cece774"
+    },
+    "class": "food",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100002418/2020/0514/115/7f8818c3-7433-421e-bce1-f613581b8e03.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100002418/2020/0514/198/b1e34c21-c708-4129-9225-3dda8d45f4c6.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100002418/2020/0514/198/b1e34c21-c708-4129-9225-3dda8d45f4c6.jpg",
+    "pid": "25",
+    "pname": "特惠量足味美 三只松鼠麻辣零食大礼包496g/34包肉类小吃牛肉组合",
+    "price": "39",
+    "price1": "65",
+    "type": [
+      "套餐1",
+      "套餐2",
+      "套餐3",
+      "套餐4"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34018921c12004d371edc"
+    },
+    "class": "food",
+    "class2": "2",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100006471/2020/0506/114/b6864827-517e-41e0-9880-6cb58a739096.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100006471/2020/0507/13/b218033c-b2d0-46c4-83e0-abe7fdde88ba.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100006471/2020/0507/155/7c808b0b-0594-45b7-8577-2d0db0a1b9d1.jpg",
+    "pid": "26",
+    "pname": "【冷链直达】涨芝士酸奶芝芝多莓风味牛奶益生菌袋装发酵乳",
+    "price": "38",
+    "price1": "58",
+    "type": [
+      "套餐1",
+      "套餐2",
+      "套餐3",
+      "套餐4"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34088674ff5004d157935"
+    },
+    "class": "food",
+    "class2": "2",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100006471/2020/0228/132/deca679c-dc7c-4be8-b5cf-11747cf0ec50_64x64_90.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100006471/2020/0228/30/f29f4e2b-78b1-41a9-9780-ee81d432e9a1.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100006471/2020/0228/185/b0db2931-a2cc-493b-bc87-be8fb6a13d6f.jpg",
+    "pid": "27",
+    "pname": "【冷链直达】简醇0蔗糖原味酸奶慢醇益生菌发酵乳炭烧风味牛奶",
+    "price": "37",
+    "price1": "52",
+    "type": [
+      "慢醇",
+      "简醇"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34137921c12004d371ee2"
+    },
+    "class": "food",
+    "class2": "2",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001559/2019/0411/39/8bcdb5c2-2bdb-4e8a-a0ab-007db093d45c.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001559/2020/0331/187/a39c76bb-45c5-4a02-a9a4-157729e2e30c.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001559/2020/0331/9/e6b297fb-7863-4406-a106-c6c0d5d0440c.jpg",
+    "pid": "28",
+    "pname": "娃哈哈乳酸菌 100ml*20/40瓶 牛奶酸奶乳酸菌饮品",
+    "price": "24",
+    "price1": "30",
+    "type": [
+      "哇哈哈乳酸菌"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3451533bd17004e03ad23"
+    },
+    "class": "food",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006772/2020/0421/115/33a09475-6fbd-402e-a443-29a01fd09e5e.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006772/2020/0421/157/72a8971e-7dc9-4a3e-9b55-69e041fc6804.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006772/2020/0421/157/ca19f6c7-63d0-4c73-af62-f6f9c3957d4d.jpg",
+    "pid": "29",
+    "pname": "无糖0脂肪0卡青瓜味苏打气泡水饮料元气森林汽水饮品480ml*12瓶",
+    "price": "60",
+    "price1": "89",
+    "type": [
+      "青瓜味"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3465af23960004c9f9a6d"
+    },
+    "class": "food",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdc/444/085/460006601729085444/15/5900820000264-1.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdc/444/085/460006601729085444/15/5900820000264-2.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdc/444/085/460006601729085444/15/5900820000264-3.jpg",
+    "pid": "30",
+    "pname": "【2件起售】波兰 Laciate兰雀全脂纯牛奶 1L*12盒",
+    "price": "99",
+    "price1": "147",
+    "type": [
+      "1L*12盒/箱"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34714674ff5004d15795d"
+    },
+    "class": "food",
+    "class2": "3",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100005628/2020/0220/136/6bb3ecb7-9f14-4789-b839-35069301ad04.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100005628/2020/0220/136/6bb3ecb7-9f14-4789-b839-35069301ad04.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100005628/2020/0220/136/6bb3ecb7-9f14-4789-b839-35069301ad04.jpg",
+    "pid": "31",
+    "pname": "【鲁花直销】鲁花5S压榨一级花生油1.8L*2 礼盒装 食用油 粮油",
+    "price": "105.9",
+    "price1": "119",
+    "type": [
+      "鲁花直营"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34795550399004d706b95"
+    },
+    "class": "food",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006314/2020/0428/130/078f624c-a5a5-4e0f-8990-bf7a6950a1b3.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006314/2020/0427/119/f02c46c1-a907-423d-aa4b-ee140e294ac2.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006314/2019/1209/58/cb13b1fc-d308-4776-87d0-617d3adc3f5a.jpg",
+    "pid": "32",
+    "pname": "广垦严选杂粮 5包套装 燕麦 小米 玉米糁 黄豆 红豆 五谷 粗粮",
+    "price": "59.9",
+    "price1": "105",
+    "type": [
+      "鲁花直营"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34868f23960004c9f9a7a"
+    },
+    "class": "food",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100004057/2019/0614/134/5a2da18b-f1e4-4995-a18f-1cae8004ff62.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100004057/2019/0614/93/b8103a2f-1efc-4419-ae2a-b6ba1a2b3ff5.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100004057/2019/0614/100/68c687e1-a430-427b-a401-5359a5edabb2.jpg",
+    "pid": "33",
+    "pname": "盛耳赤小豆400g农家新长粒小赤豆红豆粮油五谷杂粮薏米搭档",
+    "price": "15.8",
+    "price1": "25",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec348c96f49e7004db07f70"
+    },
+    "class": "food",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006314/2019/1108/94/9f6c2722-41fb-4ab4-8729-70d9524fc445.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006314/2020/0424/132/05cacdef-decc-4fd8-8989-81fee2c51c0b.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006314/2020/0424/149/05f05897-7c24-42af-9374-066e42932071.jpg",
+    "pid": "34",
+    "pname": "广垦山茶调和油1.8L 央企出品",
+    "price": "51",
+    "price1": "102",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec34924cd763b004c8f22de"
+    },
+    "class": "food",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006345/2020/0328/184/a46b9951-7e98-450a-8f83-dd03d8f1eedb.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006345/2020/0328/164/4d983fc6-925f-4f4e-8d86-4cfa0ec9b8d6.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100006345/2020/0328/169/d8845186-81e3-41d3-b1fb-32dd3e2598a2.jpg",
+    "pid": "35",
+    "pname": "5L*4瓶中粮福临门非转基因压榨一级玉米油食用油炒菜烧菜粮油批发",
+    "price": "258",
+    "price1": "320",
+    "type": [
+      "5L*4瓶"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec349c7df55cc004c5a0e58"
+    },
+    "class": "food",
+    "class2": "4",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/111557/2019/0906/163/74c7bd48-03c8-4e7c-bb91-566ad4c262ba.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/111557/2019/0906/55/124482af-0770-4bd7-8792-4074c937754c.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/111557/2019/0906/5/bdea8d4e-7b66-4018-bc9c-808c7ee90961.jpg",
+    "pid": "36",
+    "pname": "【唯品自营】法国进口14度AOC红酒蒙特斯伯爵珍藏干红礼盒",
+    "price": "269",
+    "price1": "1588",
+    "type": [
+      "5L*4瓶"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34ae6610a9e004d9a03e6"
+    },
+    "class": "food",
+    "class2": "4",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/111557/2018/0622/70/2adfc539-d60e-46b2-8ec9-4ebdf952530f.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/111557/2018/0622/89/ffdb9610-bd90-4bd4-a7c1-49731f88cdc2.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/111557/2018/0622/171/849f6b12-8d3f-49b6-8c79-74e89197ec1f.jpg",
+    "pid": "37",
+    "pname": "【唯品自营】法国总统剪彩酒庄 法国进口AOC 洛爱桃红葡萄酒",
+    "price": "88",
+    "price1": "489",
+    "type": [
+      "5L*4瓶"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34b3bd9c9e8004deddb7a"
+    },
+    "class": "food",
+    "class2": "4",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100005674/2020/0424/14/2812201f-8399-4fe0-8816-3dd5bb63fbfb.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100005674/2020/0424/137/7ac1052c-a9b2-40a3-a0d4-25fdeb4b667c.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100005674/2020/0424/137/7ac1052c-a9b2-40a3-a0d4-25fdeb4b667c.jpg",
+    "pid": "38",
+    "pname": "【会员福利购】扳倒井52度1号样酒 500ml/瓶 年份老酒",
+    "price": "20",
+    "price1": "39",
+    "type": [
+      ""
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34baaf8eeb6004dc296ca"
+    },
+    "class": "food",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/611562/2019/0505/195/e3510059-1fc3-4c7b-8f20-d193960eef2f.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/611562/2019/0505/155/722785bf-c819-4a97-9782-98b8301380d6.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/611562/2019/0505/29/548f089a-a678-4d0c-b6e9-b5a25455f15e.jpg",
+    "pid": "39",
+    "pname": "【陶坛丰藏 口碑礼盒】稻花香丰藏52度500ml*6瓶 整箱浓香白酒",
+    "price": "199",
+    "price1": "786",
+    "type": [
+      "500ml*6"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34c4fad7441004c07cef3"
+    },
+    "class": "food",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/604796/2019/1119/35/c1baedab-d639-4b1b-a796-c0e2feca0507.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/604796/2019/1015/92/bfc934bf-9d7c-4384-ba22-524784e2ae6b.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/604796/2019/0513/173/dcd7aebc-8c38-46a9-a04a-74dd960ab3e4.jpg",
+    "pid": "40",
+    "pname": "孔府家 珍藏大礼52度1500ml*4 高度白酒整箱",
+    "price": "496",
+    "price1": "832",
+    "type": [
+      "1500ml*4"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34e68dbc3d4004d6a0786"
+    },
+    "class": "digit",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/2020/04/07/162/5bd20d37-7a2b-40d9-881c-a602b13c47b8.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/2020/04/07/155/7a105dab-df66-42ef-8276-3a882c8b6f61.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/2020/04/07/151/2d9209e4-2c2d-42d4-a8a5-08ddb02c9322.jpg",
+    "pid": "41",
+    "pname": "荣耀Play 4T 大内存 4800万AI摄影6G+128G",
+    "price": "1149",
+    "price1": "1199",
+    "type": [
+      "幻夜黑",
+      "蓝水翡翠"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34eb70fc902004d3d6459"
+    },
+    "class": "digit",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/06/20/37/60cfc7a4-98b1-44da-8170-ba3650f83bf1.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/06/22/177/e9d2e1c5-0130-4af6-b530-b909a6024614.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/06/20/23/fa9d1087-0991-4d85-b4f0-b5f46ae2c8de.jpg",
+    "pid": "42",
+    "pname": "HUAWEI nova 5i 全网通4G手机",
+    "price": "1399",
+    "price1": "1999",
+    "type": [
+      "幻夜黑",
+      "蓝水翡翠"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec34fabe260f0004ce08488"
+    },
+    "class": "digit",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/02/26/85/e6636912-fdc8-416b-94ce-800173bdf29a.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/02/26/2/31530c8c-b5d1-43f7-b778-b9b2f2a37ef4.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/02/26/41/f43af0d3-8bf1-4c30-a8f4-b5262acc5a78.jpg",
+    "pid": "43",
+    "pname": "vivo U3x 5000mAh大电池千元拍照智能手机",
+    "price": "799",
+    "price1": "899",
+    "type": [
+      "子夜黑",
+      "天湖蓝",
+      "翡翠绿",
+      "亮银白"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec350356bba66004c6bbed0"
+    },
+    "class": "digit",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/610251/2020/0407/196/7ddd1cfa-841b-429e-a98f-d9aaa7f04b77.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/610251/2020/0407/68/a092d66d-9c8c-474e-ac65-727983c7cc29.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/610251/2020/0407/70/214d9ccf-f021-4725-8b39-221f543cc858.jpg",
+    "pid": "44",
+    "pname": "荣耀Play4T Pro 麒麟810 超级快充6G+128G",
+    "price": "1499",
+    "price1": "1699",
+    "type": [
+      "子夜黑",
+      "冰岛幻境",
+      "蓝水翡翠",
+      "亮银白"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec37844dbc3d4004d6a081c"
+    },
+    "class": "digit",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/21/157/6bc33c2d-e9e4-4a4b-8909-e778a7f0f767.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/21/186/3a8b81d1-4b37-4297-a0f1-909da7a2de28.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/04/21/22/acb84770-91ba-4552-95b4-d31d528d0bb1.jpg",
+    "pid": "45",
+    "pname": "iPhone SE A13仿生 128G 全网通",
+    "price": "3699",
+    "price1": "3799",
+    "type": [
+      "黑色",
+      "白色",
+      "红色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec378b0cd763b004c8f238d"
+    },
+    "class": "digit",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/607191/2020/0303/104/a06ea469-a618-4fa3-94c4-8a705d33068e.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/607191/2020/0303/118/2d6e311f-f825-4722-98b3-2712cd07ab8a.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/607191/2020/0422/36/62cbd3eb-afe6-4672-9752-73d8f2227b9c.jpg",
+    "pid": "46",
+    "pname": "灵越3585 四核超薄办公用商务笔记本电脑15.6英寸",
+    "price": "2849",
+    "price1": "6599",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec3799d0fc902004d3d64e9"
+    },
+    "class": "digit",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/614620/2019/1202/39/a5af2bd6-6488-4ea3-9a1f-46aaf8c79fe9.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/614620/2019/0617/46/24098994-4432-4565-afa4-f2b2091bc8d3.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/614620/2020/0416/71/3de521f0-f137-483e-b1c4-cc46ffe20ba4.jpg",
+    "pid": "47",
+    "pname": "【热销】惠普星14青春版轻薄便携本办公娱乐高性能学生笔记本电脑",
+    "price": "2749",
+    "price1": "4999",
+    "type": [
+      "R3-3200U/8G内存 256G固态",
+      "R3-3200U/4G内存 256G固态【30%选择】"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec37a243c6376004c5ed4aa"
+    },
+    "class": "digit",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/614532/2020/0423/154/46461dda-d319-4e3a-8c3f-7d3474204ea9.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/614532/2020/0423/48/9bd0bc64-f4be-4e4c-9ebd-adc8852ff676.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/614532/2020/0423/190/e30d640e-e940-49e9-9571-d9d98042cc24.jpg",
+    "pid": "48",
+    "pname": "2020款 MacBook Air 13.3英寸 256G 笔记本电脑",
+    "price": "7499",
+    "price1": "7999",
+    "type": [
+      "金色",
+      "银色",
+      "深空灰"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec37aaad9c9e8004deddd04"
+    },
+    "class": "digit",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100004076/2020/0428/11/d2cbcc44-c04e-49c7-8c77-466954a39d93.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100004076/2019/0902/30/d4ce374a-8b7b-4564-8b00-579470c516d9.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100004076/2020/0411/156/cee4cf4a-3bfb-4ad5-9cac-4a7a7f190dac.jpg",
+    "pid": "49",
+    "pname": "【四核处理器】23.6英寸S240曲面屏一体机电脑家用办公游戏台式机【官方正品】23.6英寸",
+    "price": "1899",
+    "price1": "2999",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec37b186bba66004c6bbf70"
+    },
+    "class": "digit",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/618737/2020/0429/178/9b7979cc-ce4d-45e5-9d8b-f8b1cf6a09e6.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/618737/2020/0429/195/6859b442-1418-4c0a-948b-d1610e7fdbd7.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/618737/2020/0429/144/19ac77b5-719c-439a-a824-0c739a5dcf76.jpg",
+    "pid": "50",
+    "pname": "小欧24一体机 23.8英寸全高清J4005处理器简约时尚家用办公",
+    "price": "3069",
+    "price1": "3399",
+    "type": [
+      "定制2(8G内存/128G+1T硬盘)",
+      "定制1(4G内存/256G硬盘)",
+      "定制3(8G内存/256G+1T硬盘)"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec37b9c3c6376004c5ed4ae"
+    },
+    "class": "digit",
+    "class2": "3",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100003392/2019/0418/152/a0a80ce8-3f18-423c-acc8-e7303ee14202.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100003392/2019/0418/36/fd096289-2b31-40b7-b3de-1650b2eaa87f.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/ugcaudit/2019/03/30/60/7b9f9dd8-52cc-11e9-b69b-14187737f303.jpg",
+    "pid": "51",
+    "pname": "iPhone7plus/8苹果x/XR入耳式手机耳机耳塞原装",
+    "price": "169",
+    "price1": "499",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec37c4e15bcf2004dceb2d1"
+    },
+    "class": "digit",
+    "class2": "3",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100003392/2019/0612/134/d2988f7a-1cf5-4f7f-8ce8-aef921ad8419.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100003392/2019/0612/134/d2988f7a-1cf5-4f7f-8ce8-aef921ad8419.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100003392/2019/0612/134/d2988f7a-1cf5-4f7f-8ce8-aef921ad8419.jpg",
+    "pid": "52",
+    "pname": "挂脖式降噪重低音乐游戏通用小米安卓苹果华为运动蓝牙耳机",
+    "price": "65",
+    "price1": "299",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec37cc8f8811b004d4a0f1a"
+    },
+    "class": "digit",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100001043/2018/1015/1/b23fbcc5-9a3b-4716-88d9-f9f84cfd0658.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100001043/2018/1015/134/3e25c00a-549b-4c4c-a508-c3aa8ea77fa5.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100001043/2018/1015/169/a88d35c6-10c9-4402-9535-1898a953ca37.jpg",
+    "pid": "53",
+    "pname": "罗马仕 CB0F安卓数据线加长手机通用 oppo手机充电线",
+    "price": "8.9",
+    "price1": "33",
+    "type": [
+      "黑色",
+      "白色",
+      "2条装白色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec37d1cdbc3d4004d6a082a"
+    },
+    "class": "digit",
+    "class2": "3",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100004280/2019/0809/43/fe9463a8-181a-4c99-bbe8-fefd694dda9e.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100004280/2019/0907/19/eb3addc2-c28c-4af4-aead-0943317dcee0.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100004280/2019/0906/84/a9525c1c-6df9-4436-8520-3b739ac6c73f.jpg",
+    "pid": "54",
+    "pname": "【用坏包换】苹果数据线苹果充电线iPhone充电器线苹果接口",
+    "price": "21",
+    "price1": "68",
+    "type": [
+      "黑色",
+      "红色",
+      "黑色+红色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec37d99cd763b004c8f23a3"
+    },
+    "class": "digit",
+    "class2": "3",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100004461/2020/0321/55/6d49799d-3394-4eab-92f3-d6ff88a14a7a.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100004461/2020/0321/168/1a921c4d-9be2-4b03-9ef7-8380a6eaa16f.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100004461/2020/0321/96/4f4a4cec-e93f-4371-a618-48829fd90e46.jpg",
+    "pid": "55",
+    "pname": "苹果数据线iphone11/8plus/X/XR手机线冰瓷快充苹果充电线",
+    "price": "38",
+    "price1": "179",
+    "type": [
+      "1米",
+      "1.5米",
+      "2米"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec37e888cf51d004c511968"
+    },
+    "class": "makeup",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/2020/05/11/13/2ff26477-7b19-4e6f-bfcf-ae8dd749de91-1.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/2020/05/11/61/0b4196c3-187e-4403-90ad-ce6f6ce99d95-2.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/2020/05/11/75/839dacb0-6817-4446-9d20-df4325a316dd-3.jpg",
+    "pid": "56",
+    "pname": "魅可子弹头经典唇膏哑光口红【多色】3g小辣椒/正红色/脏橘色",
+    "price": "119",
+    "price1": "170",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec37ee733bd17004e03ae04"
+    },
+    "class": "makeup",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcimg/2020/03/16/1/165762661584350429639.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcimg/2020/03/16/1/165762661584350429639.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcimg/2020/03/16/1/165762661584350429639.jpg",
+    "pid": "57",
+    "pname": "纪梵希Givenchy禁忌之吻口红唇膏 【多色可选】",
+    "price": "160",
+    "price1": "320",
+    "type": [
+      "3.4g一支"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec37f74921c12004d371fe3"
+    },
+    "class": "makeup",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcimg/2020/05/12/124/22651341589249919372.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcimg/2020/05/12/24/636361971589249919828.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcimg/2020/05/12/0/411099521589249919936.jpg",
+    "pid": "58",
+    "pname": "【2件起售】JMsolution急救针剂珍珠精华补水面膜保湿10片/盒",
+    "price": "45",
+    "price1": "120",
+    "type": [
+      "珍珠三部曲",
+      "急救"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec38090f2e022004c932600"
+    },
+    "class": "makeup",
+    "class2": "2",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/114104/2020/0427/127/ad4e5d7e-1bf1-45f9-b61c-ae4acb6e23bb.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/114104/2020/0205/59/12072fc2-6415-40dc-ad4d-caf4a02e0071.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcimg/2020/05/12/0/411099521589249919936.jpg",
+    "pid": "59",
+    "pname": "【爆款鲜萃面膜】欧诗漫珍珠鲜萃32片面膜套组补水面膜",
+    "price": "58",
+    "price1": "644",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec380e833bd17004e03ae15"
+    },
+    "class": "makeup",
+    "class2": "2",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/107390/2020/0408/175/7d30fa24-4ecc-43d2-b813-3b0012143432.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/107390/2020/0515/12/770e2dc7-a48b-47ac-98e1-83a769cd7955.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/107390/2020/0327/114/0ffad23d-de17-4faa-9b17-e507e405610c.jpg",
+    "pid": "60",
+    "pname": "【口碑爆款】膜法世家水光补水保湿亮肤玻尿酸面膜贴套装40片",
+    "price": "79",
+    "price1": "396",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec382208cf51d004c511985"
+    },
+    "class": "makeup",
+    "class2": "3",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcvis/605411/2020/0220/42/b9bf118b-d1fb-4093-b523-2050eca4efbf.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcvis/605411/2020/0410/105/12e71a69-264e-4ccc-bb0f-0b4760d0e3e7.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/ugcaudit/2020/03/27/139/7bc35ab6-6fe5-11ea-84ec-02020ad0ae08.jpg",
+    "pid": "61",
+    "pname": "【高效美白祛斑持双证】活泉烟酰胺紧致补水渗透美白精华液2支",
+    "price": "42",
+    "price1": "238",
+    "type": [
+      "15ml"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec382a5610a9e004d9a04c5"
+    },
+    "class": "makeup",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/02/18/175/1fc6e0a0-eb0d-4ae9-892a-8b3946be127b.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/02/18/67/de79e6dd-87a5-477a-9535-9326cbd2919e.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/02/18/47/d28fd2e2-d042-43b9-b766-327ddc251d86.jpg",
+    "pid": "62",
+    "pname": "高姿【虾青素精华】光感赋活精华液太空舱抗氧化精华烟酰胺补水",
+    "price": "129",
+    "price1": "509",
+    "type": [
+      "精华15ml",
+      "精华30ml"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3831ee260f0004ce0855d"
+    },
+    "class": "makeup",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/106143/2019/0812/134/433a47bc-4d4f-477d-9ca4-000f8791aafd.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/106143/2019/0225/98/82c9be1c-2565-4d94-9504-457d9e966738.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/106143/2019/0517/56/9cb55a18-a788-4304-b463-d82924d3d342.jpg",
+    "pid": "63",
+    "pname": "【驻颜小金瓶】24K黄金烟酰胺精华液2支装 100ml/支",
+    "price": "58",
+    "price1": "338",
+    "type": [
+      "100ml*2"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3837c550399004d7070bc"
+    },
+    "class": "makeup",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/108652/2019/1207/140/23d22fdd-62a6-4cd2-aadb-c9478fcd899e.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/12/06/117/3974630b-1bd1-4a06-a196-aafa999a0cca.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/12/06/177/d3314d27-9717-4316-b06c-5e4f92a13c13.jpg",
+    "pid": "64",
+    "pname": "【蓝莲养肤】花颜悦色礼盒水乳洁面素颜霜眼霜补水保湿护肤品套装",
+    "price": "63",
+    "price1": "584",
+    "type": [
+      "100ml*2"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec383eb90cade004da4bcbf"
+    },
+    "class": "makeup",
+    "class2": "4",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/114104/2020/0518/164/996152ea-d676-4bf0-a02a-a3f5ad11963c.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/114104/2020/0408/129/aa13b3d7-2ea3-4001-814f-af12ae8540f7.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/114104/2020/0408/24/df28cac3-30d2-462d-902a-92b72bb7b0e9.jpg",
+    "pid": "65",
+    "pname": "【滋润补水 敏感肌福音】珍珠舒缓润养修护礼盒水乳护肤品套装",
+    "price": "109",
+    "price1": "350",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec384ffde1810004cf54564"
+    },
+    "class": "clean",
+    "class2": "1",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdc/416/988/94370559884988416/3/3930008-61.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcvis/603326/2019/0627/75/d84e63d3-eecc-408d-9ab9-f55d131e80fc.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcvis/603326/2019/0627/79/216f99a8-ead8-4e99-93e0-84477def7502.jpg",
+    "pid": "66",
+    "pname": "【张嘉倪推荐】香遇巴黎香水洗护套装（500ml+500ml）洗发水 控油",
+    "price": "55",
+    "price1": "258",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec3858a3c6376004c5ed4e4"
+    },
+    "class": "clean",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/105209/2020/0213/191/e42b4ad6-2834-4075-aea4-fc3dfa423f5d.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/105209/2020/0213/191/e42b4ad6-2834-4075-aea4-fc3dfa423f5d.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/105209/2020/0213/36/d623a049-5517-4d11-a988-132c3833e7ae.jpg",
+    "pid": "67",
+    "pname": "【哇好大一瓶】海飞丝清爽顺滑去油去屑洗发水1330g+补充装200ml",
+    "price": "75",
+    "price1": "149",
+    "type": [
+      "丝滑顺爽",
+      "清爽控油"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec385ec985034004c2c3d51"
+    },
+    "class": "clean",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcimg/2020/03/05/135/454665971583375475568.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcimg/2020/03/05/91/595221531583375475871.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcimg/2020/03/05/116/221170871583375475873.jpg",
+    "pid": "68",
+    "pname": "无硅护发 植物香氛 TAMANOHADA 无硅油香氛洗发水 004栀子花香",
+    "price": "89",
+    "price1": "198",
+    "type": [
+      "540ml"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3867c3c6376004c5ed4f1"
+    },
+    "class": "clean",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/600863/2019/0814/175/1c55db6a-bf96-4c62-b535-9cb3d1ca3b2e.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/600863/2019/0814/53/ec6ed43d-6600-49ee-b3a2-ed45f27d49e1.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/600863/2019/0814/149/45c3b95e-702b-4377-b111-ae5101c17565.jpg",
+    "pid": "69",
+    "pname": "力士洗发水750ml(新老包装以收到实物为准)黑鱼子精粹/桃花/桂花",
+    "price": "40",
+    "price1": "99",
+    "type": [
+      "桃花沁香",
+      "金桂幽香",
+      "奢养黑亮"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec38713f8eeb6004dc297af"
+    },
+    "class": "clean",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/613495/2020/0427/165/9b0967b7-eb3d-4f55-8037-5d80c164e2e4.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/613495/2020/0427/102/74fb4666-d444-47ec-ba62-cff3304edafe.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/613495/2020/0401/197/25429c6e-c3bf-479d-853f-df259458c7f1.jpg",
+    "pid": "70",
+    "pname": "【叶一宸同款】滋源健发奢养洗发水（洗1005ml）生姜 强根建发",
+    "price": "89",
+    "price1": "240",
+    "type": [
+      "中干性",
+      "油性"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec387b50fc902004d3d65b3"
+    },
+    "class": "clean",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/600863/2019/0413/47/6fe95630-7262-4a0e-9a90-59ab609e72ab.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/600863/2019/0413/110/9b471477-c378-414d-ac21-7c2e159741be.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/600863/2019/0413/177/0fc74372-4a45-41e3-87e2-d5bf54139547.jpg",
+    "pid": "71",
+    "pname": "力士精油香氛沐浴露1000g（新老包装请以收到为准）",
+    "price": "29",
+    "price1": "65",
+    "type": [
+      "熏衣馨舞",
+      "青柠爽悦",
+      "桃花浅香"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec38853de1810004cf5458b"
+    },
+    "class": "clean",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/600863/2019/0413/47/6fe95630-7262-4a0e-9a90-59ab609e72ab.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/600863/2019/0413/110/9b471477-c378-414d-ac21-7c2e159741be.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/600863/2019/0413/177/0fc74372-4a45-41e3-87e2-d5bf54139547.jpg",
+    "pid": "72",
+    "pname": "【温和易洗】舒肤佳健康清爽沐浴露1.5L家庭装 持久留香沐浴乳液",
+    "price": "38",
+    "price1": "60",
+    "type": [
+      "熏衣馨舞",
+      "青柠爽悦",
+      "经典清香"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec388c6ed31fb004d24c5c9"
+    },
+    "class": "clean",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/105209/2020/0515/190/d750cdb5-8978-4e5e-9af5-36966d7f3e5c.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/105209/2020/0115/109/d93e9078-520c-4f9e-bbf4-c8051483b20d.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/105209/2019/1101/175/6be3b0bc-d26b-44d4-95b9-7d20e916f506.jpg",
+    "pid": "73",
+    "pname": "【焕亮美肌】OLAY烟酰胺滋润修护套装莹亮500ml+紧致500ml",
+    "price": "64",
+    "price1": "109",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec38943bb3e5e004c4d6cc0"
+    },
+    "class": "clean",
+    "class2": "3",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001647/2020/0515/164/58227d9d-4493-4a2d-9dd9-74ac15b20d24.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001647/2020/0220/33/9764022a-0964-4678-b31c-70e7adf7aa2c.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001647/2020/0515/5/b1e012e6-29cc-4bdd-9ef1-c0ef1328beff.jpg",
+    "pid": "74",
+    "pname": "唯品专供爆款薰衣草洗衣液机洗家庭套装足足15斤全年用量瓶袋装",
+    "price": "89",
+    "price1": "172",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec389aaf97e82004cece8ee"
+    },
+    "class": "clean",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005574/2020/0330/150/ca7853b5-e370-4537-8386-f4d6541e0d06.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005574/2019/1212/42/23e63533-9dfb-41d7-99b9-cff18b3b4808.jpg",
+    "img3": "https://1251962819.vod2.myqcloud.com/54067453vodtransgzp1251962819/e88661a05285890795754882852/v.f30.mp4",
+    "pid": "75",
+    "pname": "【16斤包邮】天然亮白洗衣液超值家庭装洗护合一低泡易清洗",
+    "price": "69",
+    "price1": "129",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec38a6f3e8e0b004d9df607"
+    },
+    "class": "clean",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/608356/2020/0227/159/ceee8ace-6034-4763-a0d0-7c2e5073dfb2.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/608356/2020/0227/154/09444c34-64dc-45c5-96ba-0af116dfee33.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/608356/2020/0227/113/b049c0d9-37ca-4b04-8dff-204873d8054f.jpg",
+    "pid": "76",
+    "pname": "护目镜防唾沫飞沫溅全封闭近视眼可戴防风劳保多功能眼镜",
+    "price": "38",
+    "price1": "119",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec38afb0fc902004d3d65c8"
+    },
+    "class": "clean",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100002784/2018/1205/151/87ca86d6-22cb-4a34-8bd4-214beae90ae0.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100002784/2018/1205/7/08a8d204-88fa-4579-a3b4-2f35514eb430.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100002784/2018/1205/166/f30665b6-d7e4-47e3-a58b-5fecdbe166e3.jpg",
+    "pid": "77",
+    "pname": "新越昌晖礼仪手套棉劳保手套白手套薄阅兵10副无按扣S7021",
+    "price": "23",
+    "price1": "51",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec38b6f6bba66004c6bbff0"
+    },
+    "class": "clean",
+    "class2": "4",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcvis/612214/2020/0425/82/64ece148-6bfa-4109-80b2-174046144143.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcvis/612214/2020/0425/93/999e29f7-97ce-44e2-ad37-1a95eb4b4c40.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcvis/612214/2020/0425/132/3f41a0da-6138-4aa7-a912-3d44f383064e.jpg",
+    "pid": "78",
+    "pname": "【现货】成人口罩一次性三层防护含熔喷布透气男女口鼻罩10只装",
+    "price": "17",
+    "price1": "69",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec38bc73e8e0b004d9df612"
+    },
+    "class": "clean",
+    "class2": "4",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/617317/2020/0401/37/91a95d25-3a74-4dbe-b4f2-22d78da347b7.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/617317/2020/0401/131/78e991af-35c8-40cc-8281-9c5a9071e9b5.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/617317/2020/0318/197/9a65aa53-e351-47fe-8834-c32061afacf2.jpg",
+    "pid": "79",
+    "pname": "【现货】一次性防护成人口罩50片/盒（非独立包装）",
+    "price": "88",
+    "price1": "399",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec38c2c7b07f6004d6ede4b"
+    },
+    "class": "clean",
+    "class2": "4",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcvis/2020/02/19/120/cacdb7d2-321b-4f27-a2c0-45a6a651eafc.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcvis/2020/02/19/39/5fdee615-8efd-4eda-b7c6-04372c888ca8.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcvis/2020/02/19/139/2cb6911f-6143-4b63-92f7-bdd70e2c0fa8.jpg",
+    "pid": "80",
+    "pname": "软胶【出门必备防尘防飞沫】多功能全封闭非医用护目镜",
+    "price": "28",
+    "price1": "169",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec38d5b674ff5004d157ada"
+    },
+    "class": "momAndChild",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005418/2019/0507/164/2bab150b-d556-451f-b6c4-e8c7579ab168.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005418/2020/0327/135/f6175deb-6ed2-42a4-8421-fe60c1f782f3.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005418/2019/0507/81/331c695d-898e-40f8-8fb2-534a399da0d8.jpg",
+    "pid": "81",
+    "pname": "390ML儿童水杯儿童水壶宝宝便携随水杯耐摔防漏饮水杯夏季水杯",
+    "price": "26",
+    "price1": "88",
+    "type": [
+      "390ML水杯"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec38dc3bb3e5e004c4d6ce0"
+    },
+    "class": "momAndChild",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005418/2019/0522/72/83170781-e3fb-46de-b50d-ea735daebc41.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005418/2020/0316/127/7c5b126b-ba8d-4d66-a01a-bdaeeb56b31f.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005418/2019/0522/105/ecab3b69-1ec9-4e70-b641-6d14e772b90e.jpg",
+    "pid": "82",
+    "pname": "迪士尼450ML男女儿童休闲水杯学生酷炫吸管杯夏季水杯水壶",
+    "price": "15",
+    "price1": "58",
+    "type": [
+      "450ML水杯"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec38e4671aa80004d7a8326"
+    },
+    "class": "momAndChild",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005418/2019/0522/72/83170781-e3fb-46de-b50d-ea735daebc41.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005418/2020/0316/127/7c5b126b-ba8d-4d66-a01a-bdaeeb56b31f.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005418/2019/0522/105/ecab3b69-1ec9-4e70-b641-6d14e772b90e.jpg",
+    "pid": "83",
+    "pname": "婴儿童碗304不锈钢碗叉勺餐具套装",
+    "price": "12",
+    "price1": "99",
+    "type": [
+      "防烫不锈钢绿色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec38eb08cf51d004c511a70"
+    },
+    "class": "momAndChild",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100002616/2019/0623/32/b0e6ae57-ecb1-40b6-a2d1-84ac5fb78761.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100002616/2019/0617/177/ac312c18-6a22-404e-90f9-b76827929b88.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100002616/2019/0617/165/435f2164-5abc-40c5-b53d-fcc64785b1ae.jpg",
+    "pid": "84",
+    "pname": "防摔可爱卡通餐具分隔餐盘宝宝辅食碗儿童吃饭碗筷叉勺子套装",
+    "price": "10.9",
+    "price1": "39",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec38f0df8eeb6004dc297ee"
+    },
+    "class": "momAndChild",
+    "class2": "2",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/608761/2019/0311/132/801ea30b-9f44-484b-b919-0833a7017ec4.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/608761/2019/0311/7/5252cf16-479b-42d4-bd83-1e4d43a64495.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/608761/2019/0311/79/4f0e079d-5200-4336-b575-869d44e90de5.jpg",
+    "pid": "85",
+    "pname": "小麦秆儿童碗卡通饭碗防摔分格零食碗宝宝吃饭碗筷儿童餐具餐盘",
+    "price": "39",
+    "price1": "107",
+    "type": [
+      "北欧粉",
+      "北欧蓝"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec38fb7c7a66b004d4047aa"
+    },
+    "class": "momAndChild",
+    "class2": "3",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100002815/2020/0408/182/a18c9988-c61c-48a1-a92a-709b42fc74ec.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100002815/2020/0408/99/6662e094-85df-4c5c-8f13-325af6e3ba59.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100002815/2020/0408/77/f4535d62-8c3a-476b-91df-05acbc5ef017.jpg",
+    "pid": "86",
+    "pname": "【灯光音乐 配浓缩液】泡泡猪相机抖音爆款玩具泡泡机六一儿童节",
+    "price": "24",
+    "price1": "117",
+    "type": [
+      "小熊猫泡泡照相机",
+      "小浣熊泡泡照相机",
+      "小熊泡泡照相机"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3900e09e2e5004d2dbe87"
+    },
+    "class": "momAndChild",
+    "class2": "3",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100002815/2020/0408/182/a18c9988-c61c-48a1-a92a-709b42fc74ec.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100002815/2020/0408/99/6662e094-85df-4c5c-8f13-325af6e3ba59.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100002815/2020/0408/77/f4535d62-8c3a-476b-91df-05acbc5ef017.jpg",
+    "pid": "87",
+    "pname": "纽奇 【大小颗粒308pcs】儿童积木桌子兼容乐高益智拼装玩具",
+    "price": "128",
+    "price1": "598",
+    "type": [
+      "套餐一",
+      "套餐二",
+      "套餐三"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3905e3c6376004c5ed57f"
+    },
+    "class": "momAndChild",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/129483/2019/0319/48/dccc70db-f54c-472f-a540-0a7f90e8f3f1.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/129483/2019/0319/12/41d164fb-c717-49d8-ab94-ecc87853a258.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/129483/2019/0319/167/09c3c675-f871-4a43-87f3-9b83049d738a.jpg",
+    "pid": "88",
+    "pname": "【超级飞侠】奥迪双钻机器人套装系列工具车玩具玩具车儿童玩具",
+    "price": "59",
+    "price1": "199",
+    "type": [
+      "多多",
+      "小爱",
+      "乐迪"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec390a9550399004d707120"
+    },
+    "class": "momAndChild",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/613112/2020/0429/67/8d914c6c-cc32-4b16-8ef5-9dd062587496.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/613112/2020/0429/118/9faa3daf-0e2d-4454-96a5-7f08ae1a2315.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/613112/2020/0429/19/d6296031-209c-41a6-9f64-f938a83f55e8.jpg",
+    "pid": "89",
+    "pname": "抖音网红同款小猪照相机泡泡机玩具儿童全自动电动吹泡泡",
+    "price": "35",
+    "price1": "149",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec390f3de1810004cf545ea"
+    },
+    "class": "momAndChild",
+    "class2": "3",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/112766/2018/0617/90/43b9d73d-3726-4779-ac4b-65f4544dc42c.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/112766/2018/0617/168/b05644c5-414d-4286-b6eb-0cb9c11d46d2.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/112766/2018/0617/197/4c822abf-8310-4433-9c23-eb758358a09b.jpg",
+    "pid": "90",
+    "pname": "六一礼物 30片装纯磁力片百变提拉建构片儿童积木玩具磁性玩具",
+    "price": "48",
+    "price1": "219",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec391ffd409e9004cdaeb83"
+    },
+    "class": "furniture",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001394/2019/0821/134/864f4381-d6a5-4600-8804-dd9607b76834.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001394/2019/0821/188/f9affa1f-629a-40c0-a275-bc4961aa8f19.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001394/2019/0821/157/49fc58eb-0314-4a38-9873-22345f629913.jpg",
+    "pid": "91",
+    "pname": "桌布防水防油免洗茶几布北欧ins风网红餐桌布艺pvc塑料学生书桌垫",
+    "price": "19",
+    "price1": "35",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec3926a90cade004da4bdad"
+    },
+    "class": "furniture",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001394/2019/1126/57/5bf3246d-e7e1-4d00-9b97-792bb04779d2.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001394/2019/0821/13/2d1d81e1-6c21-48e1-b1a7-b6817a83a64a.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001394/2019/0821/183/f2ce1e3d-121f-4847-a965-0a77bbfe8c19.jpg",
+    "pid": "92",
+    "pname": "pvc桌布ins防水防油免洗台布学生书桌垫家用防烫台布茶几垫",
+    "price": "19",
+    "price1": "35",
+    "type": [
+      "135*135",
+      "150*180",
+      "120*120"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec392cdf8eeb6004dc29808"
+    },
+    "class": "furniture",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001394/2019/1126/57/5bf3246d-e7e1-4d00-9b97-792bb04779d2.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001394/2019/0821/13/2d1d81e1-6c21-48e1-b1a7-b6817a83a64a.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001394/2019/0821/183/f2ce1e3d-121f-4847-a965-0a77bbfe8c19.jpg",
+    "pid": "93",
+    "pname": "实木餐桌子茶几大理石桌面家具贴膜透明保护膜耐高温防水自粘",
+    "price": "12.9",
+    "price1": "25",
+    "type": [
+      "高清透明硅胶亮光",
+      "高清透明硅胶亮光(加厚)"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec39314921c12004d3720e8"
+    },
+    "class": "furniture",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100000642/2019/0905/154/52ed7dc3-6716-45a7-ac10-7008b8e78ad5.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100000642/2019/0905/115/1d4ffa44-4e05-4691-afa9-5b5e858b50e9.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100000642/2019/0905/76/bec00635-058c-4b26-8d42-4949a3fb9c92.jpg",
+    "pid": "94",
+    "pname": "大理石桌面家具贴膜实木餐桌子茶几家居透明自粘保护膜耐高温防水",
+    "price": "11.61",
+    "price1": "45",
+    "type": [
+      "高清透明硅胶亮光",
+      "高清透明硅胶亮光(加厚)"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3937a3c6376004c5ed598"
+    },
+    "class": "furniture",
+    "class2": "1",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100000642/2020/0331/27/15ab6857-71d9-4fdd-a8c6-8c3b007cad6b.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100000642/2020/0331/183/7e4f587b-c728-4fa6-a012-7e80ffb2a7c3.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100000642/2020/0331/52/f2a0b110-f7dd-4e55-92c6-610c3bd2e7a0.jpg",
+    "pid": "95",
+    "pname": "【清仓】美式桌旗餐厅布艺装饰树叶茶几旗家具店床旗床尾巾",
+    "price": "51",
+    "price1": "97",
+    "type": [
+      "米色",
+      "黄色",
+      "淡蓝",
+      "深蓝"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3946ef8811b004d4a0fe8"
+    },
+    "class": "furniture",
+    "class2": "2",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100000439/2019/0510/136/d0a83848-8fff-438d-a729-80e32896d571.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100000439/2019/0510/39/89d0a100-2c38-445f-8928-a0ee45052e10.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100000439/2019/0510/53/f31e6d01-b3a0-41c9-b606-80cfc569fea2.jpg",
+    "pid": "96",
+    "pname": "小户型布艺沙发 现代简约可拆洗乳胶沙发 客厅整装组合三四人位",
+    "price": "949",
+    "price1": "1800",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec394cbf97e82004cece93b"
+    },
+    "class": "furniture",
+    "class2": "2",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001993/2019/0404/190/8496b9d2-db9a-42c9-b571-82d8e30b11da.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001993/2020/0416/113/5438e498-ab26-4c15-8f6b-5b42151f5585.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100001993/2019/0404/50/708ba844-dfbd-4a02-91ec-d5547277418f.jpg",
+    "pid": "97",
+    "pname": "【王牌爆款】现代布艺沙发大小户型U型沙发组合996",
+    "price": "1949",
+    "price1": "2360",
+    "type": [
+      "灰色",
+      "蓝色",
+      "咖啡色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec395386bba66004c6bc03c"
+    },
+    "class": "furniture",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005924/2020/0404/194/cb374737-94de-47e9-b2d1-06008ebda62a.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005924/2020/0406/145/f90d9563-0191-43e4-8d4b-0c92f225abbf.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100005924/2020/0404/134/59497e09-02ee-4334-8a4c-82d410077842.jpg",
+    "pid": "98",
+    "pname": "布艺沙发小户型双三四人位经济型简约现代客厅组合出租房皮布沙发",
+    "price": "799",
+    "price1": "1589",
+    "type": [
+      "海绵款",
+      "乳胶款"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec395e8de1810004cf5460c"
+    },
+    "class": "furniture",
+    "class2": "2",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100004453/2020/0419/71/1568e3fd-4f9e-4fca-bebb-b7bb889cc782.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100004453/2020/0419/19/e040506a-bcac-4ff3-ade9-3f0e9c60b6eb.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcpos/1100004453/2020/0419/126/8172e63a-8a40-42cb-89f0-91f0ed875216.jpg",
+    "pid": "99",
+    "pname": "红木茶桌椅组合 实木功夫家用小茶台一套 花梨木茶几茶具套装一体",
+    "price": "3250",
+    "price1": "5420",
+    "type": [
+      "胡桃色",
+      "花梨色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec396490fc902004d3d6620"
+    },
+    "class": "furniture",
+    "class2": "2",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100004246/2020/0322/180/58455ba7-a65e-4efa-8e9b-88ff59a2861c.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100004246/2020/0322/142/5e79007b-b581-4d7a-933b-ab09406c58df.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcpos/1100004246/2020/0322/38/9e2e8ad8-6523-489f-bd39-c0c0326e5535.jpg",
+    "pid": "100",
+    "pname": "小木窝新中式实木衣柜紫金檀木大容量卧室四门红木柜子储物家具",
+    "price": "4949",
+    "price1": "9899",
+    "type": [
+      "紫金檀木四门衣柜"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3970233bd17004e03aeb6"
+    },
+    "class": "boxAndBag",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000535/2018/1224/72/88bad427-37d4-483b-aea0-efd87b7d2971.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000535/2019/0803/85/9b3e1e9b-6e8a-4127-b6eb-649dc08f4d5b.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000535/2019/0411/27/18fe85e3-63df-4d22-8f51-06865972b150.jpg",
+    "pid": "101",
+    "pname": "瑞士军刀拉杆箱轻盈灵动弹性抗撞颜值款PP材质软箱旅行箱",
+    "price": "120",
+    "price1": "936",
+    "type": [
+      "黑色",
+      "白色",
+      "黄色",
+      "青色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec3975733bd17004e03aeb8"
+    },
+    "class": "boxAndBag",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000206/2020/0424/103/36d15502-a5ea-423f-8558-d31fb9a76310.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000206/2018/1031/114/9168b5a7-da6b-4f60-8139-98fa66027324.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdpos/1100000206/2018/0615/112/0fe85448-d49d-4733-b516-b454351bdab9.jpg",
+    "pid": "102",
+    "pname": "外交官男女行李箱拉杆箱休闲时尚旅行箱TC-611系列",
+    "price": "239",
+    "price1": "1296",
+    "type": [
+      "银色",
+      "金色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec397c70fc902004d3d6629"
+    },
+    "class": "boxAndBag",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdpos/1100000206/2018/0816/14/da65183f-5703-438c-a25e-8960e372e683.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdpos/1100000206/2018/0816/65/25cfe00e-4b6f-4b7b-8ef2-d62a9e1fb515.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdpos/1100000206/2018/0816/146/00e15358-9165-477c-bc0c-8aeb3b7694eb.jpg",
+    "pid": "103",
+    "pname": "外交官铝框拉杆箱905商务旅行箱坚韧行李箱防摔抗压",
+    "price": "439",
+    "price1": "2796",
+    "type": [
+      "紫色",
+      "古铜色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec39851f23960004c9f9be7"
+    },
+    "class": "boxAndBag",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100004697/2019/1007/145/e91f93fa-9862-4883-a8ca-bf466ef2908f.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100004697/2019/1007/46/df013f09-b624-4d3a-b207-72d221607353.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100004697/2019/1007/164/1e08d9df-c47e-4c62-8b0d-66e4d8931825.jpg",
+    "pid": "104",
+    "pname": "密码箱韩版行李箱女拉杆箱子个性旅行箱男皮箱子母箱20寸24寸28寸",
+    "price": "161",
+    "price1": "899",
+    "type": [
+      "红色",
+      "黄色",
+      "蓝色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec398c871aa80004d7a837f"
+    },
+    "class": "boxAndBag",
+    "class2": "1",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000206/2020/0320/131/485af0eb-8cc3-4ace-96d0-b237c06f3067.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000206/2020/0320/146/d42a2362-e32d-41a4-93bb-8917c8b78312.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcpos/1100000206/2020/0320/107/5ce1a327-1059-4fba-b1fe-7cd093cd76ce.jpg",
+    "pid": "105",
+    "pname": "外交官新品拉杆箱旅行箱行李箱TC-686系列",
+    "price": "329",
+    "price1": "1688",
+    "type": [
+      "红色",
+      "黄色",
+      "蓝色",
+      "黑色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec399a66f49e7004db08163"
+    },
+    "class": "boxAndBag",
+    "class2": "2",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/104218/2020/0319/86/b5c765fc-96cd-4194-a072-8891d5b6a5a1.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/104218/2020/0423/103/5449403c-53d7-415f-9fed-a15c8ef234df.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/104218/2020/0423/163/3ed3a953-810f-43ef-aa33-b0cd1681b110.jpg",
+    "pid": "106",
+    "pname": "森马新款单肩斜挎包简约撞色宽织带斜挎小方包邮差包大容量女包",
+    "price": "69",
+    "price1": "299",
+    "type": [
+      "暗夜黑",
+      "天空蓝",
+      "暖阳棕"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec39a18cd763b004c8f24b0"
+    },
+    "class": "boxAndBag",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/05/14/21/e9a9c3f3-7621-4a6f-90ea-3f3accfb9e8d.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/05/14/168/3493a0e6-0ab1-49bc-b9c8-2ebc2f470a23.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2020/05/14/73/dc78d976-64eb-4513-bc08-fa266d2a4849.jpg",
+    "pid": "107",
+    "pname": "小包包女包潮韩版百搭单肩斜挎时尚小方包",
+    "price": "139",
+    "price1": "688",
+    "type": [
+      "黑色",
+      "米色",
+      "棕色",
+      "蓝色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec39a7f71aa80004d7a838c"
+    },
+    "class": "boxAndBag",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2018/10/08/195/5df9bc42-0759-4e38-8a7e-094c07e25d46.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2018/10/08/85/4dc5d1d8-d4fb-4455-bece-d8601acbae29.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2018/10/08/110/50bf09d0-4fde-45b9-86cb-3f8aebc42da1.jpg",
+    "pid": "108",
+    "pname": "男士个性迷彩胸包韩版潮流帆布休闲背包单肩包斜挎包男包胸包",
+    "price": "111",
+    "price1": "569",
+    "type": [
+      "均码"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec39ae23f11fe004d5ac5d6"
+    },
+    "class": "boxAndBag",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/600871/2019/0701/139/9246847c-463a-44ad-b47e-a93b6a47a9fc.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/600871/2019/0701/131/f3650e9a-620e-4d5e-adf2-914b853650dc.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/600871/2019/0701/69/d697618b-9d8b-450d-a97b-f6ea338936d8.jpg",
+    "pid": "109",
+    "pname": "花花公子男士胸包新款休闲斜跨运动男包学生单肩多功能小背包潮",
+    "price": "128",
+    "price1": "538",
+    "type": [
+      "黑色",
+      "浅灰色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec39b2bf2e022004c932708"
+    },
+    "class": "boxAndBag",
+    "class2": "2",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/603778/2020/0331/195/5ca7df55-848c-4a39-9fc6-f9c43c0ec1ed.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/603778/2020/0331/54/bbc85229-5415-42eb-8952-a738438bdd95.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/603778/2020/0331/142/b78572e2-7e6b-4333-b3c4-e85b42ecee40.jpg",
+    "pid": "110",
+    "pname": "Dickies潮牌潮包女式斜挎包男式单肩包/斜挎包运动包邮差包",
+    "price": "129",
+    "price1": "459",
+    "type": [
+      "均码"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec39befe260f0004ce08648"
+    },
+    "class": "boxAndBag",
+    "class2": "3",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcvis/610386/2019/0418/111/b6a31c67-f6f8-4a9c-9595-4f4e1b769155.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcvis/610386/2019/0418/51/240b1da8-a864-4611-bb21-8a6bc0a0a9bb.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcvis/610386/2019/0418/155/1e764a8c-942d-42d8-8c61-c73d61faa77c.jpg",
+    "pid": "111",
+    "pname": "【520礼物项链】S925纯银项链流光璀璨锆石吊坠短款锁骨链",
+    "price": "55",
+    "price1": "318",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec39c3f3e8e0b004d9df694"
+    },
+    "class": "boxAndBag",
+    "class2": "3",
+    "img": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/07/01/40/976dcf34-80b7-40ec-a0f4-02ad1b98f7bf.jpg",
+    "img2": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/07/01/80/3d07cbdf-9f93-4e35-961a-a6a3163eb91d.jpg",
+    "img3": "https://a.vpimg3.com/upload/merchandise/pdcvis/2019/07/01/191/98db3cd0-53b2-4d93-8a41-ff27440658d9.jpg",
+    "pid": "112",
+    "pname": "S925纯银立体方形吊坠个性百搭魔方几何镂空银项链女",
+    "price": "29",
+    "price1": "550",
+    "type": []
+  },
+  {
+    "_id": {
+      "$oid": "5ec39caa3f11fe004d5ac5de"
+    },
+    "class": "boxAndBag",
+    "class2": "3",
+    "img": "https://a.vpimg4.com/upload/merchandise/pdcvis/100341/2019/0930/194/26becbf8-521f-4e35-98da-970901628159.jpg",
+    "img2": "https://a.vpimg4.com/upload/merchandise/pdcvis/100341/2019/0930/94/6783c367-84b4-4cf1-8424-fe4f7d66e4cf.jpg",
+    "img3": "https://a.vpimg4.com/upload/merchandise/pdcvis/100341/2019/0930/64/29ff11fc-f74a-4112-89cc-d8778e300d1e.jpg",
+    "pid": "113",
+    "pname": "kmonado日韩大牌幸运黑白双面四叶草项链女经典玫瑰金锁骨链",
+    "price": "550",
+    "price1": "2550",
+    "type": [
+      "金色",
+      "黑色"
+    ]
+  },
+  {
+    "_id": {
+      "$oid": "5ec39cf26bba66004c6bc072"
+    },
+    "class": "boxAndBag",
+    "class2": "3",
+    "img": "https://a.vpimg2.com/upload/merchandise/pdcvis/613490/2019/1028/51/55656759-3e6f-47da-84fd-075df22f9243.jpg",
+    "img2": "https://a.vpimg2.com/upload/merchandise/pdcvis/613490/2019/1028/86/7f2fd001-cdc3-4621-ba46-e806728af0f5.jpg",
+    "img3": "https://a.vpimg2.com/upload/merchandise/pdcvis/613490/2019/1027/170/a6a56eb5-5a17-4637-9f3c-0512b0e3adef.jpg",
+    "pid": "114",
+    "pname": "PANDORA潘多拉星海之辰项链组合",
+    "price": "494",
+    "price1": "726",
+    "type": [
+      "金色",
+      "黑色"
+    ]
+  }
+]

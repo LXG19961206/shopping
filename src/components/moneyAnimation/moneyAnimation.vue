@@ -1,5 +1,8 @@
 <template>
-  <view class="content">{{num}}</view>
+  <view
+    :style=" 'color:' + color + ' ; font-size:' + fontSize +';'" 
+    class="content">{{num}}
+  </view>
 </template>
 
 <script lang="ts">
@@ -16,13 +19,21 @@ export default Vue.extend({
   props:{
     number:{
       type: Number
+    },
+    color: {
+      type: String,
+      default: 'red'
+    },
+    fontSize: {
+      type: String,
+      default: '2rem'
     }
   },
   created() {
     this.num = this.number
     console.log(this.number)
     const copyData = Number(this.num)
-      const chunk = copyData / 100
+      const chunk = (copyData / 50)
       this.num = 0
       let timer:number|null = setInterval(()=>{
         copyData - this.num < chunk 
@@ -32,7 +43,7 @@ export default Vue.extend({
         copyData - this.num < chunk 
         ? clearInterval(timer as any)
         : null
-      },10)
+      },20)
   },
   methods: {}
 });
@@ -41,6 +52,5 @@ export default Vue.extend({
 <style lang="scss" scoped>
 .content {
   display: inline;
-  color: red;
 }
 </style>
